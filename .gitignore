@@ -1,7 +1,8 @@
 # User Settings
-learn_xyz_template.egg-info/
+learn_sql_query_basic.egg-info/
 docs/source/**/index.md
 .claude/skills/lesson-smith*
+.claude/skills/learn-this-project-meta*
 .claude/claude-code-message*
 .claude/settings.local.json
 tmp/
