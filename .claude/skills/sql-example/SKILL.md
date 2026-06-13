@@ -26,8 +26,8 @@ examples/NN-kebab-title/
 │   ├── 01_parent_table.csv
 │   ├── 02_child_table.csv
 │   └── 03_grandchild_table.csv
-├── gen_db.py                  # builds db.sqlite from data/*.csv
-├── db.sqlite                  # generated; commit it
+├── gen_db.py                  # AUTHOR tool — students do NOT run this
+├── db.sqlite                  # generated AND committed — students open this
 ├── example_01.sql
 ├── example_02.sql
 ├── example_03.sql
@@ -90,16 +90,24 @@ Tone is first-person and inviting ("我们一起来看…" / "let's…").
 |---------|---------------|
 | **我们要学什么 / What we'll learn** | The SQL skill(s) this lesson teaches and why they matter. |
 | **数据库故事 / The data story** | The business scenario the schema models. Include a table listing each table with a one-line description and approximate row count. |
-| **准备数据库 / Set up the database** | One-liner: run `python gen_db.py`. Tell students to open `db.sqlite` in DBeaver or `sqlite3`. |
+| **打开数据库 / Open the database** | `db.sqlite` is already committed in the lesson folder. Tell students to open it directly in DBeaver or `sqlite3`. They do NOT run `gen_db.py`. Include a short note (block-quote) that says: "if db.sqlite is corrupted, delete it and re-run `python gen_db.py`" — that is the only place students see `gen_db.py`. |
 | **先自己探索一下 / Explore the database first** | Tell students to poke around the tables themselves before running the examples — preview rows, read column names, get a mental picture. |
 | **跟着例子练 / Work through the examples** | Tell students to open each `example_NN.sql`, **copy-paste it into their SQL editor one at a time**, and read the embedded comment before and after running. Provide a short index table listing each file and what it teaches in one line. |
 | **关于 SQL 注释 / A note on SQL comments** | Brief explanation of `--` and `/* */` syntax so students understand the comments in the example files. |
 
+**Lesson-02-only section** — `examples/02-select-basics/` is the first practical lesson, so its README additionally includes a **一次性的项目准备 / One-time project setup** section (placed BEFORE "打开数据库") telling students to run `mise inst` once. Later lessons (03+) MUST NOT repeat this — the env is already set up and reminding students every lesson is noise.
+
 **Do NOT** duplicate the per-example deep explanation in the README — that lives in the `.sql` file's header comment. The README's example-walkthrough section is just an index pointing students to the right files.
 
-### 5. `gen_db.py` is a minimal driver
+**Link every file reference.** Whenever a README mentions a sibling file students should open (`example_NN.sql`, `gen_db.py`) or another lesson folder (`examples/01/`), write it as a relative markdown link — e.g. `[example_01.sql](./example_01.sql)`, `[gen_db.py](./gen_db.py)`, `[examples/01](../01/)` — so students can click through instead of hunting in the file tree. Inside the example-walkthrough index table, the filename cell MUST be a link.
 
-Do not hand-write DDL or `INSERT` statements. Use the library helper exactly as shown in the template below.
+### 5. `gen_db.py` is an author tool, not a student step
+
+`gen_db.py` is a minimal driver around the library helper that the **author** runs ONCE while building the lesson, to produce `db.sqlite`. Then **`db.sqlite` is committed to git** and ships with the lesson. Students never have to run `gen_db.py` to do the exercises — they just open the committed `db.sqlite`.
+
+Do not hand-write DDL or `INSERT` statements in `gen_db.py`. Use the library helper exactly as shown in the template below.
+
+The READMEs mention `gen_db.py` exactly once, as a recovery instruction: "if `db.sqlite` gets corrupted, delete it and re-run `python gen_db.py`."
 
 ## Workflow
 
@@ -170,9 +178,9 @@ Hit every required section in Rule 4. Keep the example-walkthrough section as a 
 
 Translate `README-cn.md` into English. Same headings (in English), same section order, same tables. The English README is a translation, not a rewrite — keep them easy to diff.
 
-### Step 8 — Verify end-to-end
+### Step 8 — Verify end-to-end (author only)
 
-From the lesson folder, run:
+From the lesson folder, run `gen_db.py` once to produce `db.sqlite` so it can be committed alongside the lesson:
 
 ```bash
 python gen_db.py

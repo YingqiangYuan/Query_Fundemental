@@ -1,0 +1,21 @@
+book_id,title,author,genre,published_year,pages,price,stock_count
+1,The Pragmatic Programmer,Andy Hunt,Programming,1999,352,29.99,12
+2,Clean Code,Robert C. Martin,Programming,2008,464,32.50,8
+3,Refactoring,Martin Fowler,Programming,1999,448,38.00,5
+4,Designing Data-Intensive Applications,Martin Kleppmann,Programming,2017,616,44.99,15
+5,The Mythical Man-Month,Frederick Brooks,Programming,1975,322,24.95,3
+6,Sapiens,Yuval Noah Harari,History,2011,498,22.00,20
+7,Guns Germs and Steel,Jared Diamond,History,1997,480,19.95,7
+8,A Short History of Nearly Everything,Bill Bryson,Science,2003,560,18.50,11
+9,Cosmos,Carl Sagan,Science,1980,396,17.00,4
+10,The Selfish Gene,Richard Dawkins,Science,1976,360,16.99,6
+11,Thinking Fast and Slow,Daniel Kahneman,Psychology,2011,512,21.99,14
+12,Influence,Robert Cialdini,Psychology,1984,336,15.99,9
+13,Atomic Habits,James Clear,Self-Help,2018,320,18.99,25
+14,Deep Work,Cal Newport,Self-Help,2016,304,17.50,18
+15,The Lord of the Rings,J.R.R. Tolkien,Fantasy,1954,1216,35.00,10
+16,Dune,Frank Herbert,Fantasy,1965,688,19.99,13
+17,Foundation,Isaac Asimov,Fantasy,1951,255,14.99,7
+18,1984,George Orwell,Fiction,1949,328,13.95,22
+19,To Kill a Mockingbird,Harper Lee,Fiction,1960,281,14.50,16
+20,The Great Gatsby,F. Scott Fitzgerald,Fiction,1925,180,11.99,19
