@@ -1,146 +1,146 @@
 # 01 — Sharpen Your Tools: Set Up DBeaver and Explore Your First Database
 
-> 工欲善其事，必先利其器。
+> *"A workman must first sharpen his tools."* — Confucius
 >
-> 在写 SQL 之前，先把工具准备好：装一个 DBeaver，连上一份现成的 SQLite 数据库，能看见里面有什么、能跑一条最简单的查询，这节课的目标就达成了。
+> Before you write a single line of SQL, get your tools in order: install DBeaver, connect to a ready-made SQLite database, see what's inside, and run the simplest possible query. If you can do that by the end of this lesson, you're done.
 
 ---
 
-## 这节课你会学到
+## What you'll learn in this lesson
 
-1. 下载并安装 **DBeaver Community**（免费版本，学习够用）。
-2. 用 DBeaver 连接一个本地 **SQLite** 数据库（一个 `.sqlite` 文件就是一个完整的数据库）。
-3. 在图形界面里 **预览表的数据**。
-4. 打开 SQL 编辑器，写一条 SQL **查询数据**。
+1. Download and install **DBeaver Community** (the free edition — it's plenty for learning).
+2. Use DBeaver to connect to a local **SQLite** database (a single `.sqlite` file *is* the entire database).
+3. **Preview table data** through the GUI.
+4. Open the SQL editor and write a query to **pull data out**.
 
-> 我们只学"够用"的部分。本课不教 SQL 语法，下一节课开始才正式讲 `SELECT`、`WHERE`、`JOIN`。
+> We're sticking to "just enough" here. This lesson does not teach SQL syntax — `SELECT`, `WHERE`, `JOIN` and friends start in the next lesson.
 
 ---
 
-## 关于这节课的数据库
+## About the database for this lesson
 
-我们提供了一个小型论坛数据库 `forum.sqlite`，已经放在本目录下，**直接进了 git**，clone 仓库就能用，不需要再下载。
+We've included a small forum database, `forum.sqlite`, right inside this folder. **It's committed to git**, so once you clone the repo it's ready to go — no downloads required.
 
-它一共三张表，模拟最朴素的"发帖 + 回帖"系统：
+It has three tables and models the simplest possible "post + reply" system you'd find on any message board:
 
-| 表名 | 含义 | 关系 |
-|------|------|------|
-| `users` | 论坛成员 | 一个用户可以发很多帖子、很多回复 |
-| `posts` | 主帖 | 每个主帖属于一个作者（`author_id → users`） |
-| `replies` | 回复 | 每条回复挂在某个主帖下面（`post_id → posts`），由一个用户写（`author_id → users`） |
+| Table | What it is | Relationship |
+|---|---|---|
+| `users` | Forum members | One user can write many posts and many replies |
+| `posts` | Top-level posts | Each post belongs to one author (`author_id → users`) |
+| `replies` | Replies | Each reply hangs off one post (`post_id → posts`) and is written by one user (`author_id → users`) |
 
-**特意约定的业务规则**：回复是**扁平**的——一条回复不能再被回复（所以 `replies` 表里没有 `parent_reply_id` 这种字段）。这让 schema 足够简单，方便后面学 `JOIN` 时一次只引入一层关联。
+**One business rule we deliberately enforced**: replies are **flat** — you cannot reply to a reply. (That's why there's no `parent_reply_id` column on `replies`.) This keeps the schema simple enough that when we get to `JOIN`, we only introduce one layer of relationship at a time.
 
-数据规模：8 个用户、12 个主帖、30 条回复，话题围绕"技术讨论"展开（SQL、Python、JOIN、commit message 之类）。
+Size: 8 users, 12 posts, 30 replies. The topics are all tech-discussion-flavored (SQL questions, Python book recommendations, tabs vs. spaces — that sort of thing).
 
-### 想自己重建数据库？
+### Want to rebuild the database yourself?
 
-`forum.sqlite` 由 `build_db.py` 从 `sql/` 目录下的两个 SQL 文件生成，完全可复现。如果不小心改坏了，只要：
+`forum.sqlite` is generated from two SQL files under `sql/` by `build_db.py`. It's fully reproducible — if you accidentally mess up the file, just run:
 
 ```bash
 python3 examples/01_sharpen_your_tools/build_db.py
 ```
 
-就会重新生成。SQL 源文件在：
+and it will be regenerated from scratch. The SQL source files are:
 
-- [`sql/01_schema.sql`](./sql/01_schema.sql) — 三张表的 `CREATE TABLE`
-- [`sql/02_seed.sql`](./sql/02_seed.sql) — `INSERT` 种子数据
+- [`sql/01_schema.sql`](./sql/01_schema.sql) — the `CREATE TABLE` statements for all three tables
+- [`sql/02_seed.sql`](./sql/02_seed.sql) — the `INSERT` statements that seed the data
 
-> 这两个 SQL 文件你现在不需要看懂，先有个印象就好。下一节课我们会逐行讲。
-
----
-
-## 步骤 1：下载 DBeaver Community（免费版本）
-
-打开 [https://dbeaver.io](https://dbeaver.io)，点击 **DOWNLOAD**。
-
-注意只下 **Community** 版本，**免费、开源、功能完全够学习用**。官网首页推销的是 PRO 版（付费），不要被带偏。
-
-![DBeaver 官网下载页](./imgs/use-dbeaver-01.png)
-
-下载完按平台正常安装即可（macOS 拖进 Applications，Windows 跑 installer，Linux 用包管理器）。
+> You don't need to understand these two SQL files yet — just know they're there. We'll walk through them line by line in the next lesson.
 
 ---
 
-## 步骤 2：新建一个数据库连接
+## Step 1: Download DBeaver Community (the free edition)
 
-打开 DBeaver，左上角那个"插头 +"图标就是 **New Database Connection**，点它。
+Go to [https://dbeaver.io](https://dbeaver.io) and click **DOWNLOAD**.
 
-![新建连接按钮](./imgs/use-dbeaver-02.png)
+Make sure you grab the **Community** edition — it's **free, open source, and has every feature you'll need for learning**. The front page tends to push the PRO (paid) edition; don't get sidetracked.
 
-> 小知识：DBeaver 是个"通用客户端"——一个工具能连 SQLite、PostgreSQL、MySQL、ClickHouse……都是同样的入口。学习阶段我们只用 SQLite，因为它最简单：**一个 `.sqlite` 文件就是一个数据库**，不用装服务器、不用配端口、不用建用户。
+![DBeaver homepage download page](./imgs/use-dbeaver-01.png)
 
----
-
-## 步骤 3：选择数据库类型 SQLite
-
-在弹出的对话框里选 **SQLite**，点 **Next**。
-
-![选择 SQLite](./imgs/use-dbeaver-03.png)
+Install it the normal way for your platform: on macOS drag it into Applications, on Windows run the installer, on Linux use your package manager.
 
 ---
 
-## 步骤 4：指向本地的 `forum.sqlite` 文件
+## Step 2: Create a new database connection
 
-在 **Path** 一栏点 **Open**，找到本目录下的 `forum.sqlite` 文件选中。
+Open DBeaver. In the top-left corner there's a small "plug with a +" icon — that's **New Database Connection**. Click it.
 
-填好后点左下角的 **Test Connection ...** 测试连接。
+![New connection button](./imgs/use-dbeaver-02.png)
 
-![配置 Path 并测试连接](./imgs/use-dbeaver-04.png)
-
-### 第一次连 SQLite：让 DBeaver 下载驱动
-
-如果是第一次用 DBeaver 连 SQLite，它会弹一个 **Driver settings** 对话框，提示要下载 SQLite JDBC 驱动。点 **Download** 即可，等几秒就装好了。
-
-![下载 SQLite 驱动](./imgs/use-dbeaver-05.png)
-
-驱动装完后回到上一步，再点一次 **Test Connection**，看到 "Connected" 就成功了。最后点 **Finish** 完成。
+> **Side note**: DBeaver is a *universal client* — the same tool can connect to SQLite, PostgreSQL, MySQL, ClickHouse, and dozens of others through the same flow. For learning we only use SQLite because it's the simplest: **a single `.sqlite` file is the whole database**. No server to install, no port to configure, no users to create.
 
 ---
 
-## 步骤 5：预览表的数据（图形化方式）
+## Step 3: Pick SQLite as the database type
 
-连上之后，左侧的 **Database Navigator** 里能看到 `forum.sqlite` → **Tables**，展开会看到三张表：`posts` / `replies` / `users`。
+In the dialog that pops up, select **SQLite** and click **Next**.
 
-**双击任意一张表，再切到 `Data` 标签页**，就能直接看到表里的所有数据，跟看 Excel 一样。
-
-![浏览 posts 表的数据](./imgs/use-dbeaver-06.png)
-
-这是最快理解数据库长什么样的方式：列名是什么、有哪些字段、数据大概是什么样——一眼就看清楚了。
-
-> **建议**：把 `users`、`posts`、`replies` 三张表都双击一遍，分别看看 `Data` 标签里的内容，对这个论坛的数据结构建立直观印象。
+![Selecting SQLite](./imgs/use-dbeaver-03.png)
 
 ---
 
-## 步骤 6：写一条 SQL 查询数据
+## Step 4: Point it at your local `forum.sqlite` file
 
-光"看"还不够，真正的 SQL 学习从"写"开始。
+In the **Path** field, click **Open** and browse to the `forum.sqlite` file in this folder.
 
-点击工具栏的 **SQL** 按钮（或菜单 *SQL Editor → New SQL Editor*），打开一个 SQL 编辑器标签页。在里面输入：
+Once it's filled in, click **Test Connection ...** in the bottom-left to try the connection.
+
+![Configuring Path and testing connection](./imgs/use-dbeaver-04.png)
+
+### First time connecting to SQLite: let DBeaver download the driver
+
+The first time you connect to a SQLite database, DBeaver will pop up a **Driver settings** dialog asking to download the SQLite JDBC driver. Just click **Download** — it takes a few seconds.
+
+![Downloading the SQLite driver](./imgs/use-dbeaver-05.png)
+
+Once the driver is installed, you'll be back at the previous screen. Click **Test Connection** again — you should see "Connected". Click **Finish** to save the connection.
+
+---
+
+## Step 5: Preview the data (the GUI way)
+
+Once connected, look at the **Database Navigator** panel on the left. Expand `forum.sqlite` → **Tables** and you'll see all three tables: `posts` / `replies` / `users`.
+
+**Double-click any table, then switch to the `Data` tab**, and you'll see every row in that table — laid out exactly like an Excel spreadsheet.
+
+![Browsing the posts table data](./imgs/use-dbeaver-06.png)
+
+This is the fastest way to get a feel for what a database actually looks like: what the column names are, what fields exist, what the data roughly resembles — all visible at a glance.
+
+> **Suggestion**: double-click each of `users`, `posts`, and `replies` and skim their `Data` tabs. It'll give you an intuitive picture of how this little forum is structured.
+
+---
+
+## Step 6: Write a SQL query
+
+Looking is one thing — real SQL learning starts when you write your first query.
+
+Click the **SQL** button on the toolbar (or use the menu *SQL Editor → New SQL Editor*) to open a SQL editor tab. Type:
 
 ```sql
 SELECT * FROM posts LIMIT 5;
 ```
 
-然后按 **Ctrl+Enter**（macOS 是 **Cmd+Enter**）执行，下方会出现结果表格。
+Then press **Ctrl+Enter** (or **Cmd+Enter** on macOS) to run it. A result grid will appear in the bottom panel.
 
-![SQL 编辑器运行查询](./imgs/use-dbeaver-07.png)
+![Running a query in the SQL editor](./imgs/use-dbeaver-07.png)
 
-这条 SQL 的意思非常朴素：
+This query is about as simple as SQL gets:
 
-- `SELECT *`：选出所有列
-- `FROM posts`：从 `posts` 这张表里
-- `LIMIT 5`：只要前 5 行
+- `SELECT *` — give me every column
+- `FROM posts` — from the `posts` table
+- `LIMIT 5` — only the first 5 rows
 
-### 小技巧：只执行选中的那条 SQL
+### Handy trick: run only the highlighted statement
 
-编辑器里可以同时写很多条 SQL。如果只想跑其中一条，**用鼠标把那条 SQL 选中**，再按 `Cmd+Enter`，DBeaver 就只会执行选中的部分。
+You can keep many SQL statements in one editor tab at the same time. To run only one of them, **highlight that statement with your mouse** and then press `Cmd+Enter` — DBeaver will execute only the highlighted portion.
 
-下图里 `SELECT * FROM users LIMIT 5;` 被选中，按下 `Cmd+Enter` 只运行了它，下面结果就是 `users` 表的前 5 行：
+In the screenshot below, `SELECT * FROM users LIMIT 5;` is highlighted, so pressing `Cmd+Enter` runs just that one query, and the result grid shows the first 5 rows of `users`:
 
-![只运行选中的 SQL](./imgs/use-dbeaver-08.png)
+![Running only the highlighted SQL](./imgs/use-dbeaver-08.png)
 
-写多条 SQL 试一试：
+Try it with all three tables:
 
 ```sql
 SELECT * FROM posts LIMIT 5;
@@ -148,15 +148,15 @@ SELECT * FROM users LIMIT 5;
 SELECT * FROM replies LIMIT 5;
 ```
 
-把光标分别放到每一条上（或者直接选中那一条），逐条 `Cmd+Enter` 执行，对照结果看每张表里都有什么字段。
+Highlight each line (or just place the cursor on it) and run them one by one. Compare the result grids to see what fields each table holds.
 
 ---
 
-## 这节课要带走的四件事
+## Four takeaways from this lesson
 
-1. **DBeaver Community 是免费的**，学习阶段不需要 PRO。
-2. **连接本地 SQLite = 选 SQLite 驱动 + 指向 `.sqlite` 文件**，没有别的步骤。
-3. **双击表 → Data 标签** 是预览数据最快的方式。
-4. **`SELECT * FROM 表名 LIMIT 5;`** 是你这节课唯一需要记住的 SQL，下一节课开始我们会在它的基础上不断加东西。
+1. **DBeaver Community is free** — you do not need PRO to learn.
+2. **Connecting to a local SQLite database = pick the SQLite driver + point at the `.sqlite` file.** That's it.
+3. **Double-click a table → Data tab** is the fastest way to preview data.
+4. **`SELECT * FROM table_name LIMIT 5;`** is the one SQL statement to memorize today. Every lesson after this builds on top of it.
 
-下节课见 👋
+See you in the next lesson 👋
