@@ -1,0 +1,31 @@
+drink_id,name,category,size,milk_type,syrup,calories,price,is_seasonal
+1,Espresso,coffee,small,none,none,5,2.75,0
+2,Double Espresso,coffee,small,none,none,10,3.25,0
+3,Americano,coffee,medium,none,none,15,3.50,0
+4,Caffe Latte,coffee,medium,whole,none,190,4.75,0
+5,Cappuccino,coffee,medium,whole,none,140,4.50,0
+6,Flat White,coffee,small,whole,none,170,4.65,0
+7,Caramel Macchiato,coffee,large,whole,caramel,250,5.25,0
+8,Vanilla Latte,coffee,medium,oat,vanilla,220,5.00,0
+9,Mocha,coffee,large,whole,chocolate,360,5.50,0
+10,Pumpkin Spice Latte,coffee,large,oat,pumpkin spice,380,5.95,1
+11,Peppermint Mocha,coffee,large,whole,peppermint,390,5.95,1
+12,Hazelnut Latte,coffee,medium,almond,hazelnut,230,5.10,0
+13,English Breakfast Tea,tea,medium,none,none,5,3.00,0
+14,Earl Grey,tea,medium,none,none,5,3.00,0
+15,Green Tea,tea,medium,none,none,0,3.00,0
+16,Chai Latte,tea,large,oat,chai,290,4.80,0
+17,Matcha Latte,tea,medium,oat,none,220,5.25,0
+18,Honey Citron Tea,tea,large,none,honey,180,4.20,0
+19,Iced Cold Brew,cold-brew,large,none,none,15,4.25,0
+20,Vanilla Sweet Cream Cold Brew,cold-brew,large,whole,vanilla,160,5.00,0
+21,Nitro Cold Brew,cold-brew,medium,none,none,10,4.75,0
+22,Salted Caramel Cold Brew,cold-brew,large,oat,caramel,240,5.40,1
+23,Iced Hazelnut Cold Brew,cold-brew,large,almond,hazelnut,210,5.10,0
+24,Strawberry Banana Smoothie,smoothie,large,almond,none,320,6.25,0
+25,Mango Pineapple Smoothie,smoothie,large,almond,none,310,6.25,0
+26,Blueberry Acai Smoothie,smoothie,large,oat,none,330,6.50,0
+27,Butter Croissant,pastry,small,none,none,270,3.50,0
+28,Pain au Chocolat,pastry,small,none,none,310,3.95,0
+29,Blueberry Muffin,pastry,small,none,none,360,3.75,0
+30,Cinnamon Roll,pastry,small,none,none,420,4.25,1

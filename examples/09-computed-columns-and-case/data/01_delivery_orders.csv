@@ -1,0 +1,61 @@
+order_id,restaurant,item_name,qty,unit_price,delivery_fee,tip,status,placed_at
+1001,Shake Shack,ShackBurger,2,7.49,3.99,2.50,delivered,2025-05-01 12:14:00
+1002,Shake Shack,Crinkle Cut Fries,1,3.89,3.99,1.00,delivered,2025-05-01 12:14:00
+1003,Chipotle Mexican Grill,Chicken Burrito Bowl,1,10.95,2.99,2.00,delivered,2025-05-01 13:02:00
+1004,Chipotle Mexican Grill,Steak Burrito,1,12.45,2.99,1.50,delivered,2025-05-01 18:45:00
+1005,Domino's Pizza,Large Pepperoni Pizza,1,15.99,4.49,3.00,delivered,2025-05-01 19:30:00
+1006,Domino's Pizza,Garlic Knots,2,4.99,4.49,1.50,delivered,2025-05-01 19:30:00
+1007,Panda Express,Orange Chicken Plate,1,11.20,3.49,2.00,delivered,2025-05-02 12:05:00
+1008,Panera Bread,Broccoli Cheddar Soup,1,7.49,3.99,1.50,delivered,2025-05-02 12:50:00
+1009,Panera Bread,Turkey Avocado BLT,1,11.79,3.99,2.00,out-for-delivery,2025-05-02 13:10:00
+1010,Sweetgreen,Harvest Bowl,1,13.95,4.99,2.50,delivered,2025-05-02 18:20:00
+1011,Sweetgreen,Kale Caesar Salad,1,12.45,4.99,2.00,cancelled,2025-05-02 18:35:00
+1012,Five Guys,Bacon Cheeseburger,1,12.79,4.49,2.50,delivered,2025-05-03 19:15:00
+1013,Five Guys,Cajun Fries Large,1,6.79,4.49,1.00,delivered,2025-05-03 19:15:00
+1014,Taco Bell,Crunchwrap Supreme,2,5.49,2.99,1.50,delivered,2025-05-03 21:40:00
+1015,Olive Garden,Chicken Alfredo,1,18.99,5.99,3.50,delivered,2025-05-03 19:50:00
+1016,Olive Garden,Breadsticks,1,0.00,5.99,0.00,delivered,2025-05-03 19:50:00
+1017,Starbucks,Caramel Macchiato Grande,2,5.45,2.99,1.50,delivered,2025-05-04 08:15:00
+1018,Starbucks,Bacon Gouda Sandwich,1,5.95,2.99,1.00,delivered,2025-05-04 08:15:00
+1019,The Cheesecake Factory,Orange Chicken,1,21.50,5.99,4.00,delivered,2025-05-04 19:25:00
+1020,The Cheesecake Factory,Original Cheesecake Slice,2,9.95,5.99,2.50,delivered,2025-05-04 19:25:00
+1021,Wendy's,Dave's Double Combo,1,10.49,3.49,1.50,delivered,2025-05-05 12:30:00
+1022,McDonald's,Big Mac Meal,1,9.79,2.99,1.00,delivered,2025-05-05 13:05:00
+1023,McDonald's,McFlurry Oreo,1,4.59,2.99,0.50,delivered,2025-05-05 13:05:00
+1024,Halal Guys,Chicken and Rice Platter,1,12.99,3.99,2.50,delivered,2025-05-05 20:10:00
+1025,Halal Guys,Falafel Sandwich,1,8.99,3.99,1.50,placed,2025-05-05 20:25:00
+1026,In-N-Out Burger,Double-Double Combo,1,9.85,3.49,2.00,delivered,2025-05-06 12:45:00
+1027,In-N-Out Burger,Animal Style Fries,1,4.95,3.49,1.00,delivered,2025-05-06 12:45:00
+1028,Joe's Pizza,Large Cheese Pizza,1,21.00,4.99,3.50,delivered,2025-05-06 18:50:00
+1029,Joe's Pizza,Sicilian Slice,3,4.50,4.99,1.50,cancelled,2025-05-06 19:00:00
+1030,Buffalo Wild Wings,15 Boneless Wings,1,18.99,4.99,3.00,delivered,2025-05-06 20:30:00
+1031,Buffalo Wild Wings,Mozzarella Sticks,1,8.99,4.99,1.50,preparing,2025-05-06 20:35:00
+1032,Sushi Yasaka,Omakase Lunch Set,1,32.00,5.99,5.00,delivered,2025-05-07 12:20:00
+1033,Sushi Yasaka,Spicy Tuna Roll,2,8.50,5.99,1.50,delivered,2025-05-07 12:20:00
+1034,Halal Bros,Lamb Over Rice,1,13.49,3.99,2.50,delivered,2025-05-07 19:45:00
+1035,Halal Bros,Hummus and Pita,1,5.99,3.99,1.00,delivered,2025-05-07 19:45:00
+1036,Wingstop,10 Piece Wing Combo,1,14.49,3.99,2.00,delivered,2025-05-08 19:20:00
+1037,Wingstop,Voodoo Fries,1,5.49,3.99,1.00,delivered,2025-05-08 19:20:00
+1038,Mod Pizza,Custom 11-inch Pizza,2,9.87,3.49,2.50,delivered,2025-05-08 12:35:00
+1039,Pret A Manger,Chicken Pesto Baguette,1,8.95,2.99,1.50,delivered,2025-05-08 13:10:00
+1040,Pret A Manger,Mac and Cheese,1,7.49,2.99,1.00,out-for-delivery,2025-05-08 13:15:00
+1041,Dig Inn,Charred Chicken Bowl,1,13.50,4.49,2.50,delivered,2025-05-09 12:30:00
+1042,Dig Inn,Roasted Sweet Potato,1,3.50,4.49,0.50,delivered,2025-05-09 12:30:00
+1043,Cava,Build Your Own Bowl,2,12.95,3.99,2.50,delivered,2025-05-09 18:40:00
+1044,Cava,Pita Chips,1,2.50,3.99,0.50,delivered,2025-05-09 18:40:00
+1045,Texas Roadhouse,Ribeye Steak,1,28.99,6.99,5.00,delivered,2025-05-09 20:15:00
+1046,Texas Roadhouse,Loaded Baked Potato,1,5.49,6.99,1.00,delivered,2025-05-09 20:15:00
+1047,IHOP,Original Pancake Stack,1,9.79,3.99,1.50,delivered,2025-05-10 09:25:00
+1048,IHOP,Bacon Side,1,4.49,3.99,0.50,cancelled,2025-05-10 09:30:00
+1049,Chick-fil-A,Spicy Chicken Sandwich Meal,1,10.95,3.49,2.00,delivered,2025-05-10 12:50:00
+1050,Chick-fil-A,Waffle Fries Large,1,3.45,3.49,0.50,delivered,2025-05-10 12:50:00
+1051,P.F. Chang's,Mongolian Beef,1,22.50,5.49,4.00,preparing,2025-05-10 19:30:00
+1052,P.F. Chang's,Chicken Lettuce Wraps,1,13.95,5.49,2.50,placed,2025-05-10 19:35:00
+1053,Subway,Footlong Italian BMT,1,11.99,2.99,1.50,delivered,2025-05-11 12:15:00
+1054,Subway,Chocolate Chip Cookies,3,1.00,2.99,0.50,delivered,2025-05-11 12:15:00
+1055,Dunkin',Iced Coffee Large,2,3.99,2.49,1.00,delivered,2025-05-11 08:30:00
+1056,Dunkin',Bacon Egg Cheese Wake-Up Wrap,2,2.99,2.49,0.50,delivered,2025-05-11 08:30:00
+1057,Shake Shack,Chicken Shack Sandwich,1,8.49,3.99,1.50,out-for-delivery,2025-05-11 13:20:00
+1058,Shake Shack,Vanilla Shake,1,5.79,3.99,1.00,placed,2025-05-11 13:25:00
+1059,Olive Garden,Tour of Italy,1,24.99,5.99,4.50,preparing,2025-05-11 19:40:00
+1060,Sweetgreen,Guacamole Greens,1,13.45,4.99,2.50,delivered,2025-05-11 18:55:00

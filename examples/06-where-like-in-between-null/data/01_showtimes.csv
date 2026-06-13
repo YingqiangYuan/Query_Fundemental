@@ -1,0 +1,51 @@
+showtime_id,movie_title,theater,screen_number,start_time,end_time,rating,language,subtitle_lang,ticket_price
+1,The Dark Knight,AMC Empire 25,Screen 1,2025-06-28 14:00,2025-06-28 16:32,PG-13,English,,16.50
+2,The Lion King,Regal Union Square,Screen 2,2025-06-28 10:30,2025-06-28 12:18,G,English,Spanish,12.00
+3,The Godfather,IFC Center,Screen 3,2025-06-29 19:00,2025-06-29 21:55,R,English,,18.00
+4,Spirited Away,Angelika Film Center,Screen 4,2025-06-29 13:15,2025-06-29 15:20,PG,Japanese,English,15.50
+5,Inception,AMC Empire 25,IMAX,2025-06-30 20:00,2025-06-30 22:28,PG-13,English,,22.00
+6,The Avengers,Regal Union Square,Screen 1,2025-07-01 18:30,2025-07-01 20:53,PG-13,English,Spanish,16.50
+7,Parasite,IFC Center,Screen 2,2025-07-01 21:00,2025-07-01 23:12,R,Korean,English,18.00
+8,The Matrix,AMC Empire 25,IMAX,2025-07-02 19:30,2025-07-02 21:46,R,English,,21.00
+9,Toy Story,Regal Union Square,Screen 3,2025-07-02 11:00,2025-07-02 12:21,G,English,,11.50
+10,The Shawshank Redemption,Angelika Film Center,Screen 4,2025-07-03 17:00,2025-07-03 19:22,R,English,French,17.00
+11,Frozen,AMC Empire 25,Screen 5,2025-07-03 10:00,2025-07-03 11:42,PG,English,Spanish,12.00
+12,Oppenheimer,Regal Union Square,IMAX,2025-07-04 19:00,2025-07-04 22:00,R,English,,23.50
+13,The Notebook,Angelika Film Center,Screen 1,2025-07-04 16:30,2025-07-04 18:33,PG-13,English,,14.50
+14,Coco,AMC Empire 25,Screen 2,2025-07-05 13:00,2025-07-05 14:45,PG,Spanish,English,13.00
+15,The Batman,Regal Union Square,IMAX,2025-07-05 20:00,2025-07-05 22:56,PG-13,English,,21.50
+16,Finding Nemo,Angelika Film Center,Screen 3,2025-07-06 10:30,2025-07-06 12:10,G,English,,12.00
+17,The Grand Budapest Hotel,IFC Center,Screen 2,2025-07-06 18:00,2025-07-06 19:40,R,English,French,17.50
+18,Joker,AMC Empire 25,Screen 4,2025-07-07 21:00,2025-07-07 23:02,R,English,,18.50
+19,The Princess Bride,Regal Union Square,Screen 5,2025-07-07 14:30,2025-07-07 16:28,PG,English,,13.00
+20,Interstellar,AMC Empire 25,IMAX,2025-07-08 19:00,2025-07-08 21:49,PG-13,English,,22.50
+21,The Iron Giant,Angelika Film Center,Screen 1,2025-07-08 11:00,2025-07-08 12:26,PG,English,,11.50
+22,She Said,IFC Center,Screen 3,2025-07-09 20:00,2025-07-09 21:46,R,English,,17.00
+23,The Incredibles,Regal Union Square,Screen 2,2025-07-09 13:30,2025-07-09 15:25,PG,English,Spanish,12.50
+24,Dune,AMC Empire 25,IMAX,2025-07-10 18:30,2025-07-10 21:05,PG-13,English,,22.00
+25,The Truman Show,Angelika Film Center,Screen 4,2025-07-10 15:00,2025-07-10 16:43,PG,English,,14.00
+26,Pulp Fiction,IFC Center,Screen 1,2025-07-11 21:30,2025-07-12 00:24,R,English,,18.00
+27,The Lego Movie,Regal Union Square,Screen 3,2025-07-11 10:00,2025-07-11 11:40,PG,English,,12.00
+28,Barbie,AMC Empire 25,Screen 5,2025-07-12 19:00,2025-07-12 20:54,PG-13,English,,17.50
+29,The Theory of Everything,Angelika Film Center,Screen 2,2025-07-12 16:00,2025-07-12 18:03,PG-13,English,,15.00
+30,La La Land,IFC Center,Screen 4,2025-07-13 20:30,2025-07-13 22:38,PG-13,English,,17.50
+31,The Sound of Music,Regal Union Square,Screen 1,2025-07-13 13:00,2025-07-13 15:54,G,English,,12.50
+32,Ratatouille,AMC Empire 25,Screen 2,2025-07-14 11:30,2025-07-14 13:21,G,English,French,12.00
+33,The Silence of the Lambs,IFC Center,Screen 3,2025-07-14 21:00,2025-07-14 22:58,R,English,,17.00
+34,Amelie,Angelika Film Center,Screen 4,2025-07-15 18:00,2025-07-15 20:02,R,French,English,16.50
+35,The Wizard of Oz,Regal Union Square,Screen 5,2025-07-15 10:30,2025-07-15 12:12,G,English,,11.50
+36,Mad Max Fury Road,AMC Empire 25,IMAX,2025-07-16 20:00,2025-07-16 22:00,R,English,,22.00
+37,The Hobbit,Regal Union Square,Screen 1,2025-07-16 17:00,2025-07-16 19:49,PG-13,English,,15.50
+38,Roma,IFC Center,Screen 2,2025-07-17 19:30,2025-07-17 21:45,R,Spanish,English,17.50
+39,The Father,Angelika Film Center,Screen 3,2025-07-17 16:00,2025-07-17 17:37,PG-13,English,,15.00
+40,Encanto,AMC Empire 25,Screen 4,2025-07-18 13:00,2025-07-18 14:42,PG,Spanish,English,13.00
+41,The Conjuring,Regal Union Square,Screen 5,2025-07-18 22:00,2025-07-18 23:52,R,English,,18.00
+42,Moonlight,IFC Center,Screen 1,2025-07-19 20:00,2025-07-19 21:51,R,English,,17.00
+43,The Revenant,AMC Empire 25,IMAX,2025-07-19 18:30,2025-07-19 21:06,R,English,,21.50
+44,Up,Regal Union Square,Screen 2,2025-07-20 11:00,2025-07-20 12:36,PG,English,Spanish,12.00
+45,The Pianist,Angelika Film Center,Screen 3,2025-07-20 19:00,2025-07-20 21:30,R,English,French,16.50
+46,Black Panther,AMC Empire 25,IMAX,2025-07-21 20:00,2025-07-21 22:14,PG-13,English,,22.00
+47,The Big Lebowski,IFC Center,Screen 4,2025-07-21 21:30,2025-07-21 23:27,R,English,,17.50
+48,Soul,Regal Union Square,Screen 5,2025-07-22 12:00,2025-07-22 13:40,PG,English,Spanish,13.00
+49,The Departed,AMC Empire 25,Screen 1,2025-07-22 21:00,2025-07-22 23:31,R,English,,18.50
+50,Spider-Man Into the Spider-Verse,Angelika Film Center,Screen 2,2025-07-23 14:00,2025-07-23 15:56,PG,English,,14.50

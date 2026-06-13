@@ -1,0 +1,81 @@
+entry_id,podcast,episode_title,host,chart_week,listens,rank
+1,The Daily,The Trial That Could Reshape the Election,Michael Barbaro,2025-03-03,1842300,1
+2,SmartLess,Live from Madison Square Garden,Jason Bateman,2025-03-03,1521700,2
+3,Crime Junkie,The Vanishing of Sarah Whitfield,Ashley Flowers,2025-03-03,1387450,3
+4,This American Life,Strangers on a Bridge,Ira Glass,2025-03-03,1198020,4
+5,Huberman Lab,Sleep Architecture and Recovery,Andrew Huberman,2025-03-03,1102560,5
+6,Lex Fridman Podcast,Conversation with a Quantum Physicist,Lex Fridman,2025-03-03,985430,6
+7,Radiolab,The Last Lighthouse Keeper,Latif Nasser,2025-03-03,847210,7
+8,Pod Save America,The Primary Season Heats Up,Jon Favreau,2025-03-03,789320,8
+9,Serial,Episode 3: The Witness Recants,Sarah Koenig,2025-03-03,712880,9
+10,Stuff You Should Know,How Volcanoes Actually Work,Josh Clark,2025-03-03,654190,10
+11,The Daily,A Banking Story Nobody Wanted to Tell,Michael Barbaro,2025-03-10,1923400,1
+12,Crime Junkie,Cold Case: The Lakeside Murders,Ashley Flowers,2025-03-10,1612300,2
+13,SmartLess,Guest: Jennifer Aniston,Jason Bateman,2025-03-10,1488750,3
+14,Huberman Lab,Caffeine Optimization for Focus,Andrew Huberman,2025-03-10,1245600,4
+15,This American Life,The Unsent Letter,Ira Glass,2025-03-10,1098450,5
+16,Lex Fridman Podcast,AI Safety with a Former OpenAI Researcher,Lex Fridman,2025-03-10,1045890,6
+17,Pod Save America,Inside the Campaign War Room,Jon Favreau,2025-03-10,892340,7
+18,Radiolab,The Octopus That Solved a Puzzle,Latif Nasser,2025-03-10,823560,8
+19,Serial,Episode 4: A New Lead Surfaces,Sarah Koenig,2025-03-10,756430,9
+20,Stuff You Should Know,The History of Pizza,Josh Clark,2025-03-10,612340,10
+21,The Daily,Inside the Supreme Court Leak,Michael Barbaro,2025-03-17,2014500,1
+22,Crime Junkie,The Disappearance on Highway 9,Ashley Flowers,2025-03-17,1734200,2
+23,Huberman Lab,Cold Exposure: What the Science Says,Andrew Huberman,2025-03-17,1432100,3
+24,SmartLess,Guest: Tom Hanks,Jason Bateman,2025-03-17,1389670,4
+25,Lex Fridman Podcast,Three Hours with Elon Musk,Lex Fridman,2025-03-17,1287450,5
+26,This American Life,Stories from the Night Shift,Ira Glass,2025-03-17,1056780,6
+27,Radiolab,Inside the Brain of an Octopus,Latif Nasser,2025-03-17,945230,7
+28,Pod Save America,Debate Night Recap,Jon Favreau,2025-03-17,876540,8
+29,Serial,Episode 5: The Tape Recording,Sarah Koenig,2025-03-17,789120,9
+30,Stuff You Should Know,The Truth About Tipping,Josh Clark,2025-03-17,634210,10
+31,The Daily,A Hospital on the Brink,Michael Barbaro,2025-03-24,1887230,1
+32,Huberman Lab,Strength Training for Longevity,Andrew Huberman,2025-03-24,1567800,2
+33,Crime Junkie,The Babysitter Who Vanished,Ashley Flowers,2025-03-24,1456320,3
+34,SmartLess,Guest: Meryl Streep,Jason Bateman,2025-03-24,1334560,4
+35,Lex Fridman Podcast,A Mathematician on Beauty,Lex Fridman,2025-03-24,1123890,5
+36,Radiolab,The Sound That Drove a Town Mad,Latif Nasser,2025-03-24,989230,6
+37,This American Life,Lost and Found in Translation,Ira Glass,2025-03-24,912340,7
+38,Pod Save America,A New Poll Changes Everything,Jon Favreau,2025-03-24,823450,8
+39,Serial,Episode 6: The Investigation Reopens,Sarah Koenig,2025-03-24,734560,9
+40,Stuff You Should Know,How Espresso Works,Josh Clark,2025-03-24,598720,10
+41,The Daily,The Election Night Anchor's Notebook,Michael Barbaro,2025-03-31,1956780,1
+42,Crime Junkie,The Cabin in the Woods,Ashley Flowers,2025-03-31,1612340,2
+43,Huberman Lab,Dopamine and Motivation,Andrew Huberman,2025-03-31,1498230,3
+44,SmartLess,Guest: Robert Downey Jr.,Jason Bateman,2025-03-31,1378900,4
+45,Lex Fridman Podcast,The Future of Programming Languages,Lex Fridman,2025-03-31,1234560,5
+46,This American Life,Three Strangers and a Suitcase,Ira Glass,2025-03-31,1067890,6
+47,Radiolab,The Last Cassette Factory,Latif Nasser,2025-03-31,956430,7
+48,Pod Save America,Inside the Convention,Jon Favreau,2025-03-31,867210,8
+49,Serial,Episode 7: A New Confession,Sarah Koenig,2025-03-31,789560,9
+50,Stuff You Should Know,The Origins of Karaoke,Josh Clark,2025-03-31,623450,10
+51,The Daily,A Senator's Final Interview,Michael Barbaro,2025-04-07,1834560,1
+52,Huberman Lab,Optimizing Hormonal Health,Andrew Huberman,2025-04-07,1623450,2
+53,Crime Junkie,The Highway Killer Returns,Ashley Flowers,2025-04-07,1534200,3
+54,SmartLess,Guest: Will Ferrell,Jason Bateman,2025-04-07,1289340,4
+55,Lex Fridman Podcast,A Conversation with a Neuroscientist,Lex Fridman,2025-04-07,1145670,5
+56,Radiolab,The Bird That Learned to Lie,Latif Nasser,2025-04-07,978340,6
+57,This American Life,Letters to a Younger Self,Ira Glass,2025-04-07,889230,7
+58,Pod Save America,The Vice President Speaks,Jon Favreau,2025-04-07,812340,8
+59,Serial,Episode 8: The Verdict,Sarah Koenig,2025-04-07,756780,9
+60,Stuff You Should Know,How Air Traffic Control Works,Josh Clark,2025-04-07,612340,10
+61,The Daily,Inside a Climate Summit,Michael Barbaro,2025-04-14,1789450,1
+62,Crime Junkie,The Missing College Student,Ashley Flowers,2025-04-14,1645230,2
+63,Huberman Lab,Fasting Protocols Revisited,Andrew Huberman,2025-04-14,1556780,3
+64,SmartLess,Guest: Reese Witherspoon,Jason Bateman,2025-04-14,1312450,4
+65,Lex Fridman Podcast,A Long Conversation with a CEO,Lex Fridman,2025-04-14,1187650,5
+66,This American Life,The Reunion That Almost Wasn't,Ira Glass,2025-04-14,1023450,6
+67,Radiolab,How Memory Actually Works,Latif Nasser,2025-04-14,934560,7
+68,Pod Save America,A Bombshell Court Ruling,Jon Favreau,2025-04-14,845670,8
+69,Serial,Episode 9: After the Trial,Sarah Koenig,2025-04-14,734230,9
+70,Stuff You Should Know,The Surprising History of Velcro,Josh Clark,2025-04-14,589450,10
+71,The Daily,The Story Behind the Stimulus Bill,Michael Barbaro,2025-04-21,1912340,1
+72,Huberman Lab,Light Exposure and Circadian Rhythms,Andrew Huberman,2025-04-21,1689320,2
+73,Crime Junkie,The Phone Call from the Stranger,Ashley Flowers,2025-04-21,1567890,3
+74,SmartLess,Guest: Margot Robbie,Jason Bateman,2025-04-21,1398760,4
+75,Lex Fridman Podcast,A Historian on the Cold War,Lex Fridman,2025-04-21,1245670,5
+76,Radiolab,The Whale That Spoke Back,Latif Nasser,2025-04-21,1056780,6
+77,This American Life,The Witness Who Changed Her Mind,Ira Glass,2025-04-21,978340,7
+78,Pod Save America,Election Day Predictions,Jon Favreau,2025-04-21,889450,8
+79,Serial,Episode 10: The Final Chapter,Sarah Koenig,2025-04-21,798760,9
+80,Stuff You Should Know,The Science of Echolocation,Josh Clark,2025-04-21,645230,10

@@ -1,0 +1,101 @@
+txn_id,account,txn_date,category,merchant,amount,type
+1,checking,2025-01-02,groceries,Whole Foods Market,87.42,debit
+2,checking,2025-01-02,dining,Starbucks,6.75,debit
+3,checking,2025-01-03,transport,Shell Gas Station,42.10,debit
+4,checking,2025-01-03,utilities,ConEdison,124.55,debit
+5,checking,2025-01-04,dining,Chipotle,13.20,debit
+6,checking,2025-01-05,entertainment,Netflix,15.49,debit
+7,checking,2025-01-06,groceries,Trader Joe's,52.18,debit
+8,checking,2025-01-07,,Venmo,25.00,debit
+9,checking,2025-01-08,income,Acme Corp Payroll,3250.00,credit
+10,checking,2025-01-08,rent,Greystar Properties,1850.00,debit
+11,checking,2025-01-09,dining,Sweetgreen,14.85,debit
+12,checking,2025-01-10,transport,Uber,18.40,debit
+13,checking,2025-01-10,groceries,Whole Foods Market,63.77,debit
+14,checking,2025-01-11,entertainment,Spotify,11.99,debit
+15,checking,2025-01-12,health,CVS Pharmacy,28.66,debit
+16,checking,2025-01-13,dining,Shake Shack,16.50,debit
+17,checking,2025-01-14,groceries,Trader Joe's,41.20,debit
+18,checking,2025-01-14,,Amazon,76.34,debit
+19,checking,2025-01-15,transport,MTA Metrocard,33.00,debit
+20,checking,2025-01-16,utilities,Verizon Wireless,72.00,debit
+21,checking,2025-01-17,dining,Starbucks,5.95,debit
+22,checking,2025-01-18,entertainment,AMC Theatres,22.50,debit
+23,checking,2025-01-19,groceries,Whole Foods Market,94.21,debit
+24,checking,2025-01-20,refund,Amazon,32.10,credit
+25,checking,2025-01-21,dining,Chipotle,12.95,debit
+26,checking,2025-01-22,health,Walgreens,17.40,debit
+27,checking,2025-01-23,,Zelle Transfer,150.00,debit
+28,checking,2025-01-24,groceries,Trader Joe's,38.92,debit
+29,checking,2025-01-25,income,Acme Corp Payroll,3250.00,credit
+30,checking,2025-01-25,rent,Greystar Properties,1850.00,debit
+31,checking,2025-01-26,dining,Sweetgreen,15.20,debit
+32,checking,2025-01-27,transport,Shell Gas Station,39.85,debit
+33,checking,2025-01-28,entertainment,Netflix,15.49,debit
+34,checking,2025-01-29,groceries,Whole Foods Market,71.55,debit
+35,checking,2025-01-30,dining,Chipotle,13.45,debit
+36,checking,2025-01-31,utilities,ConEdison,118.20,debit
+37,savings,2025-02-01,interest,Chase Bank,4.12,credit
+38,checking,2025-02-01,transfer,Chase Savings,500.00,debit
+39,savings,2025-02-01,transfer,Chase Checking,500.00,credit
+40,checking,2025-02-02,groceries,Trader Joe's,46.30,debit
+41,checking,2025-02-02,dining,Starbucks,7.10,debit
+42,checking,2025-02-03,,PayPal,49.99,debit
+43,checking,2025-02-04,transport,Uber,21.55,debit
+44,checking,2025-02-05,dining,Shake Shack,14.75,debit
+45,checking,2025-02-06,entertainment,Spotify,11.99,debit
+46,checking,2025-02-07,groceries,Whole Foods Market,82.13,debit
+47,checking,2025-02-08,income,Acme Corp Payroll,3250.00,credit
+48,checking,2025-02-08,rent,Greystar Properties,1850.00,debit
+49,checking,2025-02-09,dining,Sweetgreen,16.40,debit
+50,checking,2025-02-10,transport,MTA Metrocard,33.00,debit
+51,checking,2025-02-11,health,CVS Pharmacy,42.15,debit
+52,checking,2025-02-12,,Apple,9.99,debit
+53,checking,2025-02-13,dining,Chipotle,12.80,debit
+54,checking,2025-02-14,groceries,Trader Joe's,55.62,debit
+55,checking,2025-02-14,dining,Olive Garden,68.40,debit
+56,checking,2025-02-15,entertainment,AMC Theatres,24.00,debit
+57,checking,2025-02-16,utilities,Verizon Wireless,72.00,debit
+58,checking,2025-02-17,dining,Starbucks,6.25,debit
+59,checking,2025-02-18,groceries,Whole Foods Market,79.88,debit
+60,checking,2025-02-19,transport,Shell Gas Station,44.30,debit
+61,checking,2025-02-20,,Venmo,40.00,debit
+62,checking,2025-02-21,dining,Shake Shack,17.95,debit
+63,checking,2025-02-22,entertainment,Netflix,15.49,debit
+64,checking,2025-02-23,groceries,Trader Joe's,47.10,debit
+65,checking,2025-02-24,refund,Target,18.99,credit
+66,checking,2025-02-25,income,Acme Corp Payroll,3250.00,credit
+67,checking,2025-02-25,rent,Greystar Properties,1850.00,debit
+68,checking,2025-02-26,dining,Sweetgreen,15.85,debit
+69,checking,2025-02-27,transport,Uber,19.70,debit
+70,checking,2025-02-28,utilities,ConEdison,131.40,debit
+71,checking,2025-03-01,groceries,Whole Foods Market,88.55,debit
+72,checking,2025-03-02,dining,Chipotle,13.65,debit
+73,checking,2025-03-03,,Amazon,124.50,debit
+74,checking,2025-03-04,health,Walgreens,22.30,debit
+75,checking,2025-03-05,entertainment,Spotify,11.99,debit
+76,checking,2025-03-06,transport,MTA Metrocard,33.00,debit
+77,checking,2025-03-07,dining,Starbucks,6.50,debit
+78,checking,2025-03-08,groceries,Trader Joe's,51.40,debit
+79,savings,2025-03-08,interest,Chase Bank,4.45,credit
+80,checking,2025-03-09,dining,Olive Garden,72.10,debit
+81,checking,2025-03-10,income,Acme Corp Payroll,3250.00,credit
+82,checking,2025-03-10,rent,Greystar Properties,1850.00,debit
+83,checking,2025-03-11,transport,Shell Gas Station,40.95,debit
+84,checking,2025-03-12,dining,Sweetgreen,16.10,debit
+85,checking,2025-03-13,entertainment,Netflix,15.49,debit
+86,checking,2025-03-14,groceries,Whole Foods Market,73.22,debit
+87,checking,2025-03-15,,Apple,2.99,debit
+88,checking,2025-03-16,dining,Shake Shack,15.40,debit
+89,checking,2025-03-17,utilities,Verizon Wireless,72.00,debit
+90,checking,2025-03-18,groceries,Trader Joe's,49.85,debit
+91,checking,2025-03-19,transport,Uber,23.15,debit
+92,checking,2025-03-20,health,CVS Pharmacy,31.20,debit
+93,checking,2025-03-21,dining,Chipotle,14.10,debit
+94,checking,2025-03-22,entertainment,AMC Theatres,22.50,debit
+95,checking,2025-03-23,,Zelle Transfer,200.00,debit
+96,checking,2025-03-24,groceries,Whole Foods Market,91.18,debit
+97,checking,2025-03-25,income,Acme Corp Payroll,3250.00,credit
+98,checking,2025-03-25,rent,Greystar Properties,1850.00,debit
+99,checking,2025-03-26,dining,Sweetgreen,15.50,debit
+100,checking,2025-03-27,utilities,ConEdison,109.75,debit

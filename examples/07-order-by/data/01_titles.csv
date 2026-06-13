@@ -1,0 +1,41 @@
+title_id,title,type,release_year,runtime_minutes,imdb_score,rotten_score,watch_hours_millions
+1,Stranger Things,series,2016,51,8.7,92,1352.4
+2,The Crown,series,2016,58,8.6,89,621.7
+3,Breaking Bad,series,2008,49,9.5,96,512.3
+4,The Queen's Gambit,series,2020,60,8.5,97,489.0
+5,Squid Game,series,2021,56,8.0,95,1650.5
+6,Dark,series,2017,60,8.7,94,225.8
+7,Money Heist,series,2017,70,8.2,,742.1
+8,Wednesday,series,2022,50,8.1,73,1718.0
+9,Bridgerton,series,2020,62,7.3,86,627.0
+10,The Witcher,series,2019,60,8.1,67,541.2
+11,Inception,movie,2010,148,8.8,87,318.4
+12,The Irishman,movie,2019,209,7.8,95,215.6
+13,Roma,movie,2018,135,7.7,96,98.7
+14,Marriage Story,movie,2019,137,7.9,95,167.2
+15,Don't Look Up,movie,2021,138,7.2,55,359.8
+16,Glass Onion,movie,2022,139,7.1,92,288.0
+17,Red Notice,movie,2021,118,6.3,36,364.0
+18,Extraction,movie,2020,116,6.7,67,231.0
+19,The Gray Man,movie,2022,122,6.5,46,253.9
+20,The Adam Project,movie,2022,106,6.7,68,233.2
+21,Murder Mystery,movie,2019,97,6.0,45,158.7
+22,Bird Box,movie,2018,124,6.6,63,282.0
+23,The Old Guard,movie,2020,125,6.6,80,186.5
+24,Enola Holmes,movie,2020,123,6.6,91,189.6
+25,Triple Frontier,movie,2019,125,6.4,71,124.4
+26,Tiger King,series,2020,42,7.5,,180.9
+27,Ozark,series,2017,60,8.5,82,491.0
+28,Lupin,series,2021,45,7.5,95,316.5
+29,Narcos,series,2015,49,8.8,91,287.1
+30,Mindhunter,series,2017,55,8.6,97,142.6
+31,House of Cards,series,2013,51,8.7,82,201.8
+32,Black Mirror,series,2011,60,8.8,84,222.4
+33,Peaky Blinders,series,2013,57,8.8,93,378.6
+34,Sex Education,series,2019,50,8.3,94,329.0
+35,Cobra Kai,series,2018,30,8.5,93,400.2
+36,The Power of the Dog,movie,2021,126,6.8,93,75.2
+37,All Quiet on the Western Front,movie,2022,148,7.8,90,182.0
+38,Pieces of a Woman,movie,2020,126,7.0,76,52.8
+39,The Trial of the Chicago 7,movie,2020,129,7.7,89,154.1
+40,Lost in Space,series,2018,53,7.3,,168.4

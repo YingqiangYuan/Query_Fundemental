@@ -1,0 +1,41 @@
+listing_id,agent_id,address,neighborhood,bedrooms,bathrooms,list_price,listed_at,status
+101,1,128 Maple Ridge Dr,Lincoln Park,3,2.0,675000,2024-01-08,sold
+102,1,2240 Cedar Hollow Ln,Lincoln Park,4,3.5,925000,2024-02-14,sold
+103,1,57 Willow Bend Ct,Lakeview,2,1.0,389000,2024-03-21,active
+104,2,3300 Beacon Hill Rd,Beacon Hill,5,4.0,1875000,2024-01-30,sold
+105,2,18 Harbor Pointe Way,Harbor Pointe,4,3.0,1450000,2024-02-22,sold
+106,2,742 Magnolia Crescent,Magnolia Heights,3,2.5,820000,2024-04-05,pending
+107,2,9 Chestnut Garden Pl,Magnolia Heights,2,2.0,575000,2024-05-12,withdrawn
+108,3,415 Briarwood Ave,Briarwood,3,2.5,710000,2024-01-15,sold
+109,3,1024 Riverside Pkwy,Riverside,4,3.0,1095000,2024-02-28,sold
+110,3,67 Sunflower Ridge Rd,Briarwood,3,2.0,640000,2024-03-19,active
+111,3,889 Oak Terrace,Lakeview,5,4.5,1675000,2024-04-09,pending
+112,4,302 Sycamore Crossing,Riverside,2,1.5,425000,2024-01-22,sold
+113,4,1450 Birchwood Pl,Briarwood,3,2.0,595000,2024-03-04,withdrawn
+114,4,76 Heritage Square,Beacon Hill,4,3.0,1320000,2024-04-18,sold
+115,5,251 Lavender Ln,Magnolia Heights,3,2.5,755000,2024-02-09,sold
+116,5,888 Glenwood Pass,Glenwood,2,1.0,335000,2024-03-27,active
+117,5,4400 Falcon Ridge Dr,Glenwood,4,3.5,985000,2024-05-02,pending
+118,6,33 Brookstone Cir,Lincoln Park,3,2.0,705000,2024-01-11,sold
+119,6,1112 Parkside Blvd,Lakeview,4,3.0,1185000,2024-02-25,sold
+120,6,520 Ironwood Dr,Harbor Pointe,5,4.0,1925000,2024-03-30,sold
+121,6,67 Crestmont Way,Glenwood,2,1.5,415000,2024-05-15,withdrawn
+122,7,1840 Vineyard Ct,Riverside,3,2.5,795000,2024-01-19,sold
+123,7,295 Marina View Rd,Harbor Pointe,4,3.5,1545000,2024-02-12,sold
+124,7,99 Aspen Meadow,Glenwood,3,2.0,565000,2024-04-22,active
+125,7,7700 Cobblestone Ln,Beacon Hill,5,4.5,2150000,2024-05-06,pending
+126,8,360 Birchpoint Cir,Briarwood,2,1.5,455000,2024-01-27,sold
+127,8,1265 Stonebridge Ave,Lincoln Park,4,3.0,1075000,2024-03-13,sold
+128,8,84 Whispering Pines,Magnolia Heights,3,2.5,725000,2024-04-26,withdrawn
+129,9,610 Highland Park,Lakeview,3,2.0,685000,2024-01-05,sold
+130,9,2880 Willowbrook Rd,Briarwood,4,3.5,1295000,2024-02-18,sold
+131,9,145 Forest Glen Ct,Glenwood,2,1.0,365000,2024-03-09,sold
+132,9,1900 Summit Ridge Dr,Beacon Hill,5,4.0,1985000,2024-04-13,sold
+133,9,72 Lantern Way,Riverside,3,2.5,815000,2024-05-20,active
+134,10,455 Ashford Ln,Lincoln Park,3,2.5,745000,2024-02-04,sold
+135,10,18 Bay Crest Rd,Harbor Pointe,4,3.0,1395000,2024-03-16,sold
+136,10,1130 Meadow Lark Ln,Magnolia Heights,3,2.0,615000,2024-04-02,active
+137,10,2700 Ridgewood Ct,Glenwood,2,1.5,395000,2024-04-28,withdrawn
+138,1,950 Brookhaven Dr,Briarwood,4,3.0,1145000,2024-05-09,pending
+139,2,210 Crescent Bay,Harbor Pointe,3,2.5,895000,2024-05-22,active
+140,5,1605 Linden Grove,Lincoln Park,3,2.0,675000,2024-05-25,active

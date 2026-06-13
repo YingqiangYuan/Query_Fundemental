@@ -1,0 +1,51 @@
+checkout_id,member_name,member_email,book_title,checkout_date,due_date,returned_date,late_fee
+1,Alice Carter,alice.carter@gmail.com,The Midnight Library,2025-01-05,2025-01-26,2025-01-24,
+2,Benjamin Hughes,ben.hughes@yahoo.com,Project Hail Mary,2025-01-07,2025-01-28,2025-02-02,1.250
+3,Carla Mendoza,carla.m@outlook.com,Where the Crawdads Sing,2025-01-10,2025-01-31,2025-01-29,
+4,Daniel Park,dpark@hotmail.com,Educated,2025-01-12,2025-02-02,2025-02-10,3.5
+5, Emily Watson ,emily.watson@gmail.com,The Silent Patient,2025-01-15,2025-02-05,2025-02-04,
+6,Frank O'Donnell,frank.odonnell@yahoo.com,Sapiens,2025-01-18,2025-02-08,,
+7,Grace Liu,grace.liu@icloud.com,Becoming,2025-01-20,2025-02-10,2025-02-09,
+8,Henry Nakamura,henry.n@stanford.edu,Atomic Habits,2025-01-22,2025-02-12,2025-02-20,4.0
+9,Isabella Romano,izzy.romano@gmail.com,The Vanishing Half,2025-01-25,2025-02-15,2025-02-14,
+10,Jack Thompson ,jack.thompson@outlook.com,Klara and the Sun,2025-02-01,2025-02-22,2025-02-25,1.5
+11,Karen Bell,karen.bell@yahoo.com,The Four Winds,2025-02-03,2025-02-24,2025-02-22,
+12,Liam O'Brien,liam.obrien@gmail.com,Hamnet,2025-02-05,2025-02-26,,
+13,Maya Patel,maya.patel@hotmail.com,The Lincoln Highway,2025-02-08,2025-03-01,2025-02-28,
+14,Noah Becker,noah.becker@mit.edu,A Gentleman in Moscow,2025-02-10,2025-03-03,2025-03-12,5.75
+15,Olivia Schmidt,olivia.schmidt@gmail.com,Pachinko,2025-02-12,2025-03-05,2025-03-04,
+16, Peter Zhang,peter.zhang@yahoo.com,The Night Circus,2025-02-15,2025-03-08,2025-03-09,0.500
+17,Quinn Davies,q.davies@outlook.com,The Power of Habit,2025-02-18,2025-03-11,2025-03-10,
+18,Rachel Foster,rachel.foster@icloud.com,Eleanor Oliphant Is Completely Fine,2025-02-20,2025-03-13,2025-03-13,
+19,Samuel Kim,samuel.kim@gmail.com,Anxious People,2025-02-22,2025-03-15,2025-03-25,7.0
+20,Tara Williams,tara.w@hotmail.com,Normal People,2025-02-25,2025-03-18,,
+21,Umar Khan,umar.khan@yahoo.com,The Overstory,2025-03-01,2025-03-22,2025-03-20,
+22,Victoria Lane ,victoria.lane@gmail.com,The Heart's Invisible Furies,2025-03-03,2025-03-24,2025-03-23,
+23,William Brooks,will.brooks@berkeley.edu,Circe,2025-03-05,2025-03-26,2025-04-01,2.25
+24,Xiomara Reyes,xio.reyes@outlook.com,The Underground Railroad,2025-03-08,2025-03-29,2025-03-29,
+25,Yusuf Aslan,yusuf.aslan@hotmail.com,An American Marriage,2025-03-10,2025-03-31,,
+26,Zoe Martin,zoe.martin@gmail.com,Little Fires Everywhere,2025-03-12,2025-04-02,2025-04-02,
+27,Aaron Patel,aaron.patel@yahoo.com,The Goldfinch,2025-03-15,2025-04-05,2025-04-13,3.0
+28,Bianca Rossi,bianca.rossi@icloud.com,All the Light We Cannot See,2025-03-18,2025-04-08,2025-04-07,
+29, Caleb Johnson ,caleb.johnson@outlook.com,The Nightingale,2025-03-20,2025-04-10,2025-04-09,
+30,Diana Petrov,diana.petrov@gmail.com,The Tattooist of Auschwitz,2025-03-22,2025-04-12,2025-04-15,1.0
+31,Ethan Walsh,ethan.walsh@yahoo.com,Beartown,2025-03-25,2025-04-15,2025-04-14,
+32,Fiona Murphy,fiona.murphy@hotmail.com,The Book Thief,2025-04-01,2025-04-22,2025-04-22,
+33,Gabriel Santos,gabe.santos@gmail.com,Cloud Atlas,2025-04-03,2025-04-24,,
+34,Hannah Cohen,hannah.cohen@nyu.edu,The Power,2025-04-05,2025-04-26,2025-04-25,
+35,Ian McGregor,ian.mcgregor@outlook.com,Exit West,2025-04-08,2025-04-29,2025-05-05,2.75
+36,Julia Sanchez,julia.sanchez@yahoo.com,Homegoing,2025-04-10,2025-05-01,2025-05-01,
+37,Kevin O'Reilly,kevin.oreilly@gmail.com,The Sympathizer,2025-04-12,2025-05-03,2025-05-02,
+38,Lena Krause ,lena.krause@icloud.com,A Little Life,2025-04-15,2025-05-06,2025-05-14,8.50
+39,Marcus Reed,marcus.reed@hotmail.com,Station Eleven,2025-04-18,2025-05-09,2025-05-08,
+40,Nina Volkov,nina.volkov@gmail.com,The Dutch House,2025-04-20,2025-05-11,2025-05-10,
+41,Owen Murphy,owen.murphy@yahoo.com,Lessons in Chemistry,2025-04-22,2025-05-13,,
+42,Priya Iyer,priya.iyer@uchicago.edu,The Seven Husbands of Evelyn Hugo,2025-04-25,2025-05-16,2025-05-15,
+43,Quincy Adams,quincy.adams@outlook.com,Tomorrow and Tomorrow and Tomorrow,2025-05-01,2025-05-22,2025-05-30,3.25
+44,Rosa Delgado,rosa.delgado@gmail.com,Demon Copperhead,2025-05-03,2025-05-24,2025-05-23,
+45,Sebastian Wolf,seb.wolf@yahoo.com,Trust,2025-05-05,2025-05-26,,
+46,Tina Larsen,tina.larsen@icloud.com,The Covenant of Water,2025-05-08,2025-05-29,2025-05-28,
+47,Uri Cohen ,uri.cohen@hotmail.com,Yellowface,2025-05-10,2025-05-31,2025-06-05,1.75
+48,Valentina Cruz,val.cruz@gmail.com,Fourth Wing,2025-05-12,2025-06-02,2025-06-02,
+49,Wesley Park,wesley.park@yale.edu,Babel,2025-05-15,2025-06-05,,
+50,Xander Reilly,xander.reilly@outlook.com,The Heaven and Earth Grocery Store,2025-05-18,2025-06-08,2025-06-07,

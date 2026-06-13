@@ -1,0 +1,81 @@
+match_id,team,match_date,opponent,goals_for,goals_against,result,competition
+1,Arsenal,2024-08-17,Wolves,2,0,W,league
+1,Wolves,2024-08-17,Arsenal,0,2,L,league
+2,Liverpool,2024-08-18,Ipswich,2,0,W,league
+2,Ipswich,2024-08-18,Liverpool,0,2,L,league
+3,Manchester City,2024-08-18,Chelsea,2,0,W,league
+3,Chelsea,2024-08-18,Manchester City,0,2,L,league
+4,Tottenham,2024-08-19,Leicester,1,1,D,league
+4,Leicester,2024-08-19,Tottenham,1,1,D,league
+5,Newcastle,2024-08-24,Bournemouth,1,1,D,league
+5,Bournemouth,2024-08-24,Newcastle,1,1,D,league
+6,Arsenal,2024-08-24,Aston Villa,2,0,W,league
+6,Aston Villa,2024-08-24,Arsenal,0,2,L,league
+7,Liverpool,2024-08-25,Brentford,2,0,W,league
+7,Brentford,2024-08-25,Liverpool,0,2,L,league
+8,Chelsea,2024-08-25,Servette,2,0,W,cup
+8,Servette,2024-08-25,Chelsea,0,2,L,cup
+9,Manchester City,2024-08-31,West Ham,3,1,W,league
+9,West Ham,2024-08-31,Manchester City,1,3,L,league
+10,Tottenham,2024-09-01,Everton,4,0,W,league
+10,Everton,2024-09-01,Tottenham,0,4,L,league
+11,Arsenal,2024-09-15,Tottenham,1,0,W,league
+11,Tottenham,2024-09-15,Arsenal,0,1,L,league
+12,Liverpool,2024-09-21,Bournemouth,3,0,W,league
+12,Bournemouth,2024-09-21,Liverpool,0,3,L,league
+13,Newcastle,2024-09-21,Fulham,3,1,W,league
+13,Fulham,2024-09-21,Newcastle,1,3,L,league
+14,Chelsea,2024-09-22,West Ham,3,0,W,league
+14,West Ham,2024-09-22,Chelsea,0,3,L,league
+15,Manchester City,2024-09-25,Watford,2,1,W,cup
+15,Watford,2024-09-25,Manchester City,1,2,L,cup
+16,Arsenal,2024-09-28,Leicester,4,2,W,league
+16,Leicester,2024-09-28,Arsenal,2,4,L,league
+17,Tottenham,2024-09-29,Manchester United,3,0,W,league
+17,Manchester United,2024-09-29,Tottenham,0,3,L,league
+18,Liverpool,2024-10-05,Crystal Palace,1,0,W,league
+18,Crystal Palace,2024-10-05,Liverpool,0,1,L,league
+19,Newcastle,2024-10-19,Brighton,1,1,D,league
+19,Brighton,2024-10-19,Newcastle,1,1,D,league
+20,Chelsea,2024-10-20,Liverpool,1,2,L,league
+20,Liverpool,2024-10-20,Chelsea,2,1,W,league
+21,Manchester City,2024-10-26,Southampton,1,0,W,league
+21,Southampton,2024-10-26,Manchester City,0,1,L,league
+22,Arsenal,2024-10-27,Liverpool,2,2,D,league
+22,Liverpool,2024-10-27,Arsenal,2,2,D,league
+23,Tottenham,2024-11-03,Aston Villa,4,1,W,league
+23,Aston Villa,2024-11-03,Tottenham,1,4,L,league
+24,Newcastle,2024-11-10,Nottingham Forest,1,3,L,league
+24,Nottingham Forest,2024-11-10,Newcastle,3,1,W,league
+25,Chelsea,2024-11-10,Arsenal,1,1,D,league
+25,Arsenal,2024-11-10,Chelsea,1,1,D,league
+26,Liverpool,2024-11-23,Southampton,3,2,W,league
+26,Southampton,2024-11-23,Liverpool,2,3,L,league
+27,Manchester City,2024-11-23,Tottenham,0,4,L,league
+27,Tottenham,2024-11-23,Manchester City,4,0,W,league
+28,Arsenal,2024-11-30,West Ham,5,2,W,league
+28,West Ham,2024-11-30,Arsenal,2,5,L,league
+29,Chelsea,2024-12-01,Aston Villa,3,0,W,league
+29,Aston Villa,2024-12-01,Chelsea,0,3,L,league
+30,Newcastle,2024-12-04,Liverpool,3,3,D,league
+30,Liverpool,2024-12-04,Newcastle,3,3,D,league
+31,Tottenham,2024-12-08,Chelsea,3,4,L,league
+31,Chelsea,2024-12-08,Tottenham,4,3,W,league
+32,Manchester City,2024-12-15,Manchester United,1,2,L,league
+32,Manchester United,2024-12-15,Manchester City,2,1,W,league
+33,Liverpool,2024-12-22,Tottenham,6,3,W,league
+33,Tottenham,2024-12-22,Liverpool,3,6,L,league
+34,Arsenal,2024-12-27,Ipswich,2,0,W,league
+34,Ipswich,2024-12-27,Arsenal,0,2,L,league
+35,Newcastle,2025-01-04,Tottenham,2,1,W,league
+35,Tottenham,2025-01-04,Newcastle,1,2,L,league
+36,Chelsea,2025-01-11,Morecambe,5,0,W,cup
+36,Morecambe,2025-01-11,Chelsea,0,5,L,cup
+37,Manchester City,2025-01-25,Chelsea,3,1,W,league
+37,Chelsea,2025-01-25,Manchester City,1,3,L,league
+38,Arsenal,2025-02-02,Manchester City,5,1,W,league
+38,Manchester City,2025-02-02,Arsenal,1,5,L,league
+39,Liverpool,2025-02-08,Plymouth,0,1,L,cup
+39,Plymouth,2025-02-08,Liverpool,1,0,W,cup
+40,Tottenham,2025-02-09,Brentford,2,0,W,league
+40,Brentford,2025-02-09,Tottenham,0,2,L,league

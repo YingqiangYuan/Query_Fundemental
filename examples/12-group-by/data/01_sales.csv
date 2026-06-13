@@ -1,0 +1,121 @@
+sale_id,item,category,sale_date,quantity,total_amount,cashier
+1,Coca-Cola 20oz,drinks,2025-05-01,2,4.50,Maria Lopez
+2,Doritos Nacho Cheese,snacks,2025-05-01,1,2.49,Maria Lopez
+3,Marlboro Red Pack,tobacco,2025-05-01,1,9.75,Maria Lopez
+4,Powerball Ticket,lottery,2025-05-01,3,6.00,James Chen
+5,Tide Pods Travel,household,2025-05-01,1,3.99,James Chen
+6,Red Bull 12oz,drinks,2025-05-01,1,3.49,James Chen
+7,Snickers Bar,snacks,2025-05-01,4,5.16,Maria Lopez
+8,Camel Blue Pack,tobacco,2025-05-02,1,9.50,Aisha Patel
+9,Mega Millions Ticket,lottery,2025-05-02,2,4.00,Aisha Patel
+10,Bounty Paper Towels,household,2025-05-02,1,5.49,Aisha Patel
+11,Gatorade Cool Blue,drinks,2025-05-02,2,5.00,Maria Lopez
+12,Lay's Classic,snacks,2025-05-02,2,4.98,Maria Lopez
+13,Dasani Water,drinks,2025-05-02,3,4.50,Tomas Rivera
+14,Cheetos Crunchy,snacks,2025-05-02,1,2.49,Tomas Rivera
+15,Scratch-Off Lucky 7,lottery,2025-05-03,5,25.00,James Chen
+16,Pepsi 20oz,drinks,2025-05-03,1,2.25,James Chen
+17,Kit Kat Bar,snacks,2025-05-03,2,2.58,Maria Lopez
+18,Marlboro Gold Pack,tobacco,2025-05-03,1,9.75,Maria Lopez
+19,Clorox Wipes,household,2025-05-03,1,4.99,Aisha Patel
+20,Monster Energy,drinks,2025-05-03,2,7.00,Aisha Patel
+21,Pringles Original,snacks,2025-05-04,1,2.99,Tomas Rivera
+22,Newport Pack,tobacco,2025-05-04,2,19.50,Tomas Rivera
+23,Powerball Ticket,lottery,2025-05-04,4,8.00,Maria Lopez
+24,Coca-Cola 20oz,drinks,2025-05-04,3,6.75,Maria Lopez
+25,Twix Bar,snacks,2025-05-04,3,3.87,James Chen
+26,Glad Trash Bags,household,2025-05-04,1,6.99,James Chen
+27,Sprite 20oz,drinks,2025-05-05,2,4.50,Aisha Patel
+28,Reese's Cups,snacks,2025-05-05,2,2.58,Aisha Patel
+29,Marlboro Red Pack,tobacco,2025-05-05,1,9.75,Tomas Rivera
+30,Scratch-Off Diamond,lottery,2025-05-05,2,10.00,Tomas Rivera
+31,Charmin Bath Tissue,household,2025-05-05,1,7.49,Maria Lopez
+32,Red Bull 12oz,drinks,2025-05-06,2,6.98,Maria Lopez
+33,Doritos Nacho Cheese,snacks,2025-05-06,3,7.47,James Chen
+34,Camel Blue Pack,tobacco,2025-05-06,1,9.50,James Chen
+35,Mega Millions Ticket,lottery,2025-05-06,3,6.00,Aisha Patel
+36,Gatorade Cool Blue,drinks,2025-05-06,1,2.50,Aisha Patel
+37,Lay's Classic,snacks,2025-05-07,4,9.96,Tomas Rivera
+38,Dasani Water,drinks,2025-05-07,4,6.00,Tomas Rivera
+39,Marlboro Gold Pack,tobacco,2025-05-07,1,9.75,Maria Lopez
+40,Powerball Ticket,lottery,2025-05-07,2,4.00,Maria Lopez
+41,Bounty Paper Towels,household,2025-05-08,1,5.49,James Chen
+42,Pepsi 20oz,drinks,2025-05-08,2,4.50,James Chen
+43,Cheetos Crunchy,snacks,2025-05-08,2,4.98,Aisha Patel
+44,Newport Pack,tobacco,2025-05-08,1,9.75,Aisha Patel
+45,Scratch-Off Lucky 7,lottery,2025-05-08,3,15.00,Tomas Rivera
+46,Monster Energy,drinks,2025-05-09,1,3.50,Tomas Rivera
+47,Snickers Bar,snacks,2025-05-09,3,3.87,Maria Lopez
+48,Clorox Wipes,household,2025-05-09,2,9.98,Maria Lopez
+49,Marlboro Red Pack,tobacco,2025-05-09,2,19.50,James Chen
+50,Coca-Cola 20oz,drinks,2025-05-10,4,9.00,James Chen
+51,Pringles Original,snacks,2025-05-10,1,2.99,Aisha Patel
+52,Glad Trash Bags,household,2025-05-10,1,6.99,Aisha Patel
+53,Mega Millions Ticket,lottery,2025-05-10,5,10.00,Tomas Rivera
+54,Sprite 20oz,drinks,2025-05-10,2,4.50,Tomas Rivera
+55,Kit Kat Bar,snacks,2025-05-11,3,3.87,Maria Lopez
+56,Camel Blue Pack,tobacco,2025-05-11,1,9.50,Maria Lopez
+57,Powerball Ticket,lottery,2025-05-11,1,2.00,James Chen
+58,Charmin Bath Tissue,household,2025-05-11,1,7.49,James Chen
+59,Red Bull 12oz,drinks,2025-05-12,1,3.49,Aisha Patel
+60,Twix Bar,snacks,2025-05-12,2,2.58,Aisha Patel
+61,Marlboro Gold Pack,tobacco,2025-05-12,1,9.75,Tomas Rivera
+62,Scratch-Off Diamond,lottery,2025-05-12,4,20.00,Tomas Rivera
+63,Gatorade Cool Blue,drinks,2025-05-13,3,7.50,Maria Lopez
+64,Reese's Cups,snacks,2025-05-13,4,5.16,Maria Lopez
+65,Newport Pack,tobacco,2025-05-13,2,19.50,James Chen
+66,Dasani Water,drinks,2025-05-14,5,7.50,James Chen
+67,Doritos Nacho Cheese,snacks,2025-05-14,2,4.98,Aisha Patel
+68,Marlboro Red Pack,tobacco,2025-05-14,1,9.75,Aisha Patel
+69,Mega Millions Ticket,lottery,2025-05-14,2,4.00,Tomas Rivera
+70,Bounty Paper Towels,household,2025-05-14,2,10.98,Tomas Rivera
+71,Pepsi 20oz,drinks,2025-05-15,3,6.75,Maria Lopez
+72,Lay's Classic,snacks,2025-05-15,1,2.49,Maria Lopez
+73,Camel Blue Pack,tobacco,2025-05-15,1,9.50,James Chen
+74,Scratch-Off Lucky 7,lottery,2025-05-15,4,20.00,James Chen
+75,Clorox Wipes,household,2025-05-15,1,4.99,Aisha Patel
+76,Monster Energy,drinks,2025-05-16,2,7.00,Aisha Patel
+77,Snickers Bar,snacks,2025-05-16,2,2.58,Tomas Rivera
+78,Marlboro Gold Pack,tobacco,2025-05-16,1,9.75,Tomas Rivera
+79,Powerball Ticket,lottery,2025-05-16,3,6.00,Maria Lopez
+80,Coca-Cola 20oz,drinks,2025-05-17,2,4.50,Maria Lopez
+81,Cheetos Crunchy,snacks,2025-05-17,3,7.47,James Chen
+82,Newport Pack,tobacco,2025-05-17,1,9.75,James Chen
+83,Glad Trash Bags,household,2025-05-17,2,13.98,Aisha Patel
+84,Mega Millions Ticket,lottery,2025-05-18,3,6.00,Aisha Patel
+85,Sprite 20oz,drinks,2025-05-18,1,2.25,Tomas Rivera
+86,Pringles Original,snacks,2025-05-18,2,5.98,Tomas Rivera
+87,Marlboro Red Pack,tobacco,2025-05-18,1,9.75,Maria Lopez
+88,Scratch-Off Diamond,lottery,2025-05-19,3,15.00,Maria Lopez
+89,Red Bull 12oz,drinks,2025-05-19,3,10.47,James Chen
+90,Kit Kat Bar,snacks,2025-05-19,1,1.29,James Chen
+91,Charmin Bath Tissue,household,2025-05-19,1,7.49,Aisha Patel
+92,Camel Blue Pack,tobacco,2025-05-20,2,19.00,Aisha Patel
+93,Twix Bar,snacks,2025-05-20,3,3.87,Tomas Rivera
+94,Gatorade Cool Blue,drinks,2025-05-20,2,5.00,Tomas Rivera
+95,Powerball Ticket,lottery,2025-05-20,4,8.00,Maria Lopez
+96,Dasani Water,drinks,2025-05-21,4,6.00,Maria Lopez
+97,Reese's Cups,snacks,2025-05-21,3,3.87,James Chen
+98,Marlboro Gold Pack,tobacco,2025-05-21,1,9.75,James Chen
+99,Bounty Paper Towels,household,2025-05-21,1,5.49,Aisha Patel
+100,Pepsi 20oz,drinks,2025-05-22,2,4.50,Aisha Patel
+101,Doritos Nacho Cheese,snacks,2025-05-22,2,4.98,Tomas Rivera
+102,Newport Pack,tobacco,2025-05-22,1,9.75,Tomas Rivera
+103,Mega Millions Ticket,lottery,2025-05-23,2,4.00,Maria Lopez
+104,Monster Energy,drinks,2025-05-23,1,3.50,Maria Lopez
+105,Lay's Classic,snacks,2025-05-23,2,4.98,James Chen
+106,Scratch-Off Lucky 7,lottery,2025-05-24,3,15.00,James Chen
+107,Clorox Wipes,household,2025-05-24,1,4.99,Aisha Patel
+108,Coca-Cola 20oz,drinks,2025-05-24,3,6.75,Aisha Patel
+109,Snickers Bar,snacks,2025-05-25,3,3.87,Tomas Rivera
+110,Marlboro Red Pack,tobacco,2025-05-25,1,9.75,Tomas Rivera
+111,Scratch-Off Diamond,lottery,2025-05-26,2,10.00,Maria Lopez
+112,Sprite 20oz,drinks,2025-05-26,2,4.50,Maria Lopez
+113,Pringles Original,snacks,2025-05-26,1,2.99,James Chen
+114,Camel Blue Pack,tobacco,2025-05-27,1,9.50,James Chen
+115,Glad Trash Bags,household,2025-05-27,1,6.99,Aisha Patel
+116,Red Bull 12oz,drinks,2025-05-27,2,6.98,Aisha Patel
+117,Cheetos Crunchy,snacks,2025-05-28,2,4.98,Tomas Rivera
+118,Powerball Ticket,lottery,2025-05-28,5,10.00,Tomas Rivera
+119,Marlboro Gold Pack,tobacco,2025-05-29,1,9.75,Maria Lopez
+120,Kit Kat Bar,snacks,2025-05-30,2,2.58,James Chen

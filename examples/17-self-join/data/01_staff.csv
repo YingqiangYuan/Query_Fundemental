@@ -1,0 +1,21 @@
+employee_id,full_name,role,store_location,manager_id
+1,Patricia Alvarez,regional manager,West Region,
+2,Marcus Bennett,regional manager,East Region,
+3,Diana Chen,store manager,San Francisco - Market St,1
+4,Ethan Rodriguez,store manager,Los Angeles - Sunset Blvd,1
+5,Olivia Park,store manager,Seattle - Pike Place,1
+6,Jamal Washington,store manager,Boston - Newbury St,2
+7,Sophia Russo,store manager,New York - Fifth Ave,2
+8,Aaron Mitchell,assistant manager,San Francisco - Market St,3
+9,Megan Wallace,floor lead,San Francisco - Market St,3
+10,Carlos Diaz,cashier,San Francisco - Market St,3
+11,Hannah Brooks,assistant manager,Los Angeles - Sunset Blvd,4
+12,Ryan Sullivan,cashier,Los Angeles - Sunset Blvd,4
+13,Priya Nair,cashier,Los Angeles - Sunset Blvd,4
+14,Tyler Nguyen,floor lead,Seattle - Pike Place,5
+15,Emily Thornton,cashier,Seattle - Pike Place,5
+16,Jordan Kim,assistant manager,Boston - Newbury St,6
+17,Natalie Foster,cashier,Boston - Newbury St,6
+18,Wesley Carter,floor lead,New York - Fifth Ave,7
+19,Isabella Romano,cashier,New York - Fifth Ave,7
+20,Devon Hayes,cashier,New York - Fifth Ave,7
