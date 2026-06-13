@@ -43,7 +43,7 @@ mise inst
 
 `db.sqlite` 已经**预先生成好并提交进了 git**，就在本目录下，你**不需要自己跑生成脚本**。
 直接把它用 **DBeaver**（图形界面）或者命令行 `sqlite3` 打开就行。
-不会的话回 [examples/01](../01/) 复习一下怎么连。
+不会的话回 [examples/01_sharpen_your_tools](../01_sharpen_your_tools/) 复习一下怎么连。
 
 > **如果 `db.sqlite` 不小心坏了**：删掉它，再跑一次 [gen_db.py](./gen_db.py) 就能重新生成。
 >
