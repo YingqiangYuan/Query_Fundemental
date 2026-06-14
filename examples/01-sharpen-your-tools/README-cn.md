@@ -38,7 +38,7 @@
 `forum.sqlite` 由 `build_db.py` 从 `sql/` 目录下的两个 SQL 文件生成，完全可复现。如果不小心改坏了，只要：
 
 ```bash
-python3 examples/01_sharpen_your_tools/build_db.py
+python3 examples/01-sharpen-your-tools/build_db.py
 ```
 
 就会重新生成。SQL 源文件在：

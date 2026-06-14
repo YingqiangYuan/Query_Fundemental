@@ -42,7 +42,7 @@ Same beats 1–5 as the 5-min, then add:
 
 | Beat | Open | Say | Land |
 | :--- | :--- | :-- | :--- |
-| 6 | `examples/01_sharpen_your_tools/README.md` | "Lesson 01 is a DBeaver tutorial — different shape from the others on purpose. The course recognizes that 'open a SQLite file in a GUI' is a real prerequisite skill and doesn't pretend learners arrive with it." | Beat: the course meets learners where they are |
+| 6 | `examples/01-sharpen-your-tools/README.md` | "Lesson 01 is a DBeaver tutorial — different shape from the others on purpose. The course recognizes that 'open a SQLite file in a GUI' is a real prerequisite skill and doesn't pretend learners arrive with it." | Beat: the course meets learners where they are |
 | 7 | `examples/12-group-by/example_06.sql` | "This is the most distinctive teaching file in the course. The comment shows a *broken* GROUP BY query, then the SQL below is the correction. The point is recognizing the smell in the wild." | Beat: the course teaches what to do AND what goes wrong |
 | 8 | `learn_sql_query_basic/csv_to_sqlite.py` | "Under the hood, one shared helper — polars reads CSVs, SQLAlchemy Core builds tables, ~100 lines total. Every lesson's `gen_db.py` is 5 lines of glue around this." | Beat: the helper is minimal — the course is the artifact, not the infra |
 | 9 | `examples/check_examples.py` (line 28: regex) | "The harness tolerates lesson 01's underscore naming via a regex character class — small but instructive. Prefer compatibility over consistency when consistency is cosmetic." | Beat: thoughtful tradeoffs at the code level too |

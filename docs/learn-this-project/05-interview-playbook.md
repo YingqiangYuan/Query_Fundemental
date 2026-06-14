@@ -45,7 +45,7 @@ What to listen for: do they emphasize the **why** (per-lesson industry, committe
 
 ### Q1.5 — Lesson 01 has a different folder layout (underscore separator, `forum.sqlite` not `db.sqlite`, no `example_*.sql` files, uses raw `sqlite3` not the shared loader). Walk through why.
 
-- **Model answer.** Lesson 01 teaches DBeaver — installing it, connecting to a SQLite file, browsing tables, running `SELECT * FROM posts LIMIT 5`. Its goal is environment readiness, not SQL skill. The seed is from `sql/01_schema.sql` + `sql/02_seed.sql` (CREATE TABLE + INSERT) using `sqlite3.executescript`, because the lesson **wants** the learner to see CREATE TABLE statements as raw SQL — using the CSV loader would hide them behind polars/SQLAlchemy. The folder name (`01_sharpen_your_tools` with underscore) predates the lesson 02+ hyphen convention; `check_examples.py:28` regex `r"^\d{2}[-_].+"` tolerates both. No `example_*.sql` files because there are no SQL exercises — the README has 8 screenshots walking through the DBeaver UI.
+- **Model answer.** Lesson 01 teaches DBeaver — installing it, connecting to a SQLite file, browsing tables, running `SELECT * FROM posts LIMIT 5`. Its goal is environment readiness, not SQL skill. The seed is from `sql/01_schema.sql` + `sql/02_seed.sql` (CREATE TABLE + INSERT) using `sqlite3.executescript`, because the lesson **wants** the learner to see CREATE TABLE statements as raw SQL — using the CSV loader would hide them behind polars/SQLAlchemy. The folder name (`01-sharpen-your-tools` with underscore) predates the lesson 02+ hyphen convention; `check_examples.py:28` regex `r"^\d{2}[-_].+"` tolerates both. No `example_*.sql` files because there are no SQL exercises — the README has 8 screenshots walking through the DBeaver UI.
 - **Follow-ups.** "If you were redesigning, would you unify the folder name? What would you lose?" / "Why not use the shared loader and still ship the SQL files for the learner to read?"
 - **Weak answer.** "Lesson 01 is different" without identifying *why* (teaching tool, not SQL).
 
@@ -109,7 +109,7 @@ What to listen for: do they emphasize the **why** (per-lesson industry, committe
 
 ## Round 4 — problems hit ("when something went wrong")
 
-### Q4.1 — A learner reports `python examples/check_examples.py` errors on `01_sharpen_your_tools` with "db.sqlite missing". You investigate. Walk me through what happened and how you'd fix it.
+### Q4.1 — A learner reports `python examples/check_examples.py` errors on `01-sharpen-your-tools` with "db.sqlite missing". You investigate. Walk me through what happened and how you'd fix it.
 
 - **Model answer.** Lesson 01 ships `forum.sqlite`, not `db.sqlite` — it's a different lesson by design (DBeaver tutorial). The harness looks specifically for `db.sqlite` (`check_examples.py:92`). The error means either (a) the harness picked up lesson 01 because `LESSON_RE = r"^\d{2}[-_].+"` matches it, OR (b) the learner has only a partial clone. **The current behavior** of `check_examples.py:99-104` is to print `"db.sqlite missing -- skipping N file(s)"` and continue — so if it actually errored, lesson 01 must have grown an `example_*.sql` file or the harness changed. Real fix: either rename lesson 01's DB to `db.sqlite` (breaks the README screenshots), or have the harness explicitly skip lesson 01 by name, or make the harness check for `example_*.sql` files before complaining about a missing DB.
 - **Follow-ups.** "Which fix would you pick, and why?" / "What's the upstream defect that lets this confusion exist?"

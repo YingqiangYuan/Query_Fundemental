@@ -23,7 +23,7 @@
 .
 ├── examples/
 │   ├── README.md              ← 课程总览（22 课目录）
-│   ├── 01_sharpen_your_tools/ ← 第 01 课：DBeaver + SQLite 上手（特殊形状）
+│   ├── 01-sharpen-your-tools/ ← 第 01 课：DBeaver + SQLite 上手（特殊形状）
 │   ├── 02-select-basics/      ← 第 02 课：SELECT 入门（书店库存）
 │   ├── 03-select-columns-and-aliases/  ← 列投影 + AS 别名（咖啡馆菜单）
 │   ├── ...                    ← 04-21 各一个行业 + 一个 SQL 主题

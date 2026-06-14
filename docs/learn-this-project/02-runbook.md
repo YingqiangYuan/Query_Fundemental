@@ -49,7 +49,7 @@ You should see one line per `example_*.sql` file with `OK` and a row count, then
 | Nuke the venv | `mise run venv-remove` (= `rm -r .venv`) |
 | Run all SQL lessons against their committed DBs | `python examples/check_examples.py` |
 | Rebuild one lesson's `db.sqlite` from its CSVs | `cd examples/<NN-name>/ && python gen_db.py` |
-| Rebuild lesson 01's `forum.sqlite` | `python examples/01_sharpen_your_tools/build_db.py` |
+| Rebuild lesson 01's `forum.sqlite` | `python examples/01-sharpen-your-tools/build_db.py` |
 | Open a lesson's database in the CLI | `sqlite3 examples/<NN-name>/db.sqlite` |
 
 ## Running locally
@@ -67,7 +67,7 @@ Workflow for working a single lesson (lessons 02–23):
 
 Workflow for lesson 01:
 
-1. `cd examples/01_sharpen_your_tools/`.
+1. `cd examples/01-sharpen-your-tools/`.
 2. Follow the README's 6-step DBeaver walkthrough (`README.md:53–151`).
 3. Connect DBeaver to `forum.sqlite`. Run `SELECT * FROM posts LIMIT 5;` as the validation that everything works.
 

@@ -4,7 +4,7 @@
 
 ## 怎么用本教程
 
-如果你还不会用 DBeaver / 命令行打开 `.sqlite` 文件，先做 [01 — 工具入门](./01_sharpen_your_tools/) 把环境跑通。后面所有课都假设你已经会这一步。
+如果你还不会用 DBeaver / 命令行打开 `.sqlite` 文件，先做 [01 — 工具入门](./01-sharpen-your-tools/) 把环境跑通。后面所有课都假设你已经会这一步。
 
 从 02 起按数字顺序学。每节都是一个独立的文件夹，`db.sqlite` 已经预先生成并 commit 进 git，**直接用 DBeaver 或 `sqlite3` 打开就行**（万一文件损坏，进对应文件夹跑 `python gen_db.py` 就能重新生成）。
 

@@ -23,7 +23,7 @@ Expanded matches (24 files) at bootstrap:
 
 ```
 - path: examples/README-cn.md
-- path: examples/01_sharpen_your_tools/README-cn.md
+- path: examples/01-sharpen-your-tools/README-cn.md
 - path: examples/02-select-basics/README-cn.md
 - path: examples/03-select-columns-and-aliases/README-cn.md
 - path: examples/04-where-basics/README-cn.md
@@ -187,7 +187,7 @@ The publish skill will materialize this as `tmp/publish-commit-plan.md` for the 
 | 2 | `mise.toml`, `pyproject.toml`, `uv.lock` | `Set up mise + uv toolchain (Python 3.12)` | Toolchain before code. Defines the Python version and the dep universe. |
 | 3 | `learn_sql_query_basic/__init__.py`, `learn_sql_query_basic/csv_to_sqlite.py` | `Add csv-to-sqlite loader (polars + SQLAlchemy)` | Shared helper module. Every lesson `gen_db.py` depends on this. |
 | 4 | `examples/check_examples.py` | `Add batch self-test harness for example SQL files` | Helper script; independent of any specific lesson. Lands before lessons so the harness exists to validate them. |
-| 5 | `examples/01_sharpen_your_tools/` (full folder: README, build_db.py, sql/01_schema.sql, sql/02_seed.sql, forum.sqlite, imgs/) | `Add lesson 01: sharpen your tools (DBeaver + SQLite intro)` | First lesson. Self-contained; doesn't depend on the shared loader. |
+| 5 | `examples/01-sharpen-your-tools/` (full folder: README, build_db.py, sql/01_schema.sql, sql/02_seed.sql, forum.sqlite, imgs/) | `Add lesson 01: sharpen your tools (DBeaver + SQLite intro)` | First lesson. Self-contained; doesn't depend on the shared loader. |
 | 6 | `examples/02-select-basics/` | `Add lesson 02: SELECT basics` | First SQL lesson. Uses the shared loader (commit 3) and harness (commit 4). |
 | 7 | `examples/03-select-columns-and-aliases/` | `Add lesson 03: column projection and aliases` | |
 | 8 | `examples/04-where-basics/`, `examples/05-where-and-or-not/`, `examples/06-where-like-in-between-null/` | `Add lessons 04-06: WHERE clauses` | Bundled as the "WHERE family" — three closely-related lessons. Optionally split into 3 commits if the user prefers finer granularity. |

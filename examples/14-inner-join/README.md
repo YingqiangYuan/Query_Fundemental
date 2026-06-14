@@ -37,7 +37,7 @@ On average each pet has come in twice, but some have visited 3 times (like Charl
 
 `db.sqlite` is **already generated and committed** in this folder, so you do **not** need to build it yourself.
 Just open `db.sqlite` in **DBeaver** (GUI) or in the `sqlite3` CLI.
-If you've forgotten how, jump back to [examples/01](../01/) for a refresher.
+If you've forgotten how, jump back to [examples/01-sharpen-your-tools](../01-sharpen-your-tools) for a refresher.
 
 > **If `db.sqlite` ever gets corrupted**: delete it and re-run [gen_db.py](./gen_db.py) to regenerate.
 >

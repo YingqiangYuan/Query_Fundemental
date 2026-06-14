@@ -99,7 +99,7 @@ Tone is first-person and inviting ("我们一起来看…" / "let's…").
 
 **Do NOT** duplicate the per-example deep explanation in the README — that lives in the `.sql` file's header comment. The README's example-walkthrough section is just an index pointing students to the right files.
 
-**Link every file reference.** Whenever a README mentions a sibling file students should open (`example_NN.sql`, `gen_db.py`) or another lesson folder (`examples/01/`), write it as a relative markdown link — e.g. `[example_01.sql](./example_01.sql)`, `[gen_db.py](./gen_db.py)`, `[examples/01](../01/)` — so students can click through instead of hunting in the file tree. Inside the example-walkthrough index table, the filename cell MUST be a link.
+**Link every file reference.** Whenever a README mentions a sibling file students should open (`example_NN.sql`, `gen_db.py`) or another lesson folder (`examples/01/`), write it as a relative markdown link — e.g. `[example_01.sql](./example_01.sql)`, `[gen_db.py](./gen_db.py)`, `[examples/01-sharpen-your-tools](../01-sharpen-your-tools)` — so students can click through instead of hunting in the file tree. Inside the example-walkthrough index table, the filename cell MUST be a link.
 
 ### 5. `gen_db.py` is an author tool, not a student step
 

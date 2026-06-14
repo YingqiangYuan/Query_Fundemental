@@ -23,7 +23,7 @@ Six interactive skills make up the process:
 .
 ├── examples/
 │   ├── README.md              ← course index (22 lessons)
-│   ├── 01_sharpen_your_tools/ ← Lesson 01: DBeaver + SQLite onboarding (unique shape)
+│   ├── 01-sharpen-your-tools/ ← Lesson 01: DBeaver + SQLite onboarding (unique shape)
 │   ├── 02-select-basics/      ← Lesson 02: SELECT basics (bookstore inventory)
 │   ├── 03-select-columns-and-aliases/  ← projection + AS aliases (café menu)
 │   ├── ...                    ← lessons 04-21, each a new industry + a new SQL topic

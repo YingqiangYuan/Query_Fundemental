@@ -89,8 +89,8 @@ Tags: `knowhow` (why-questions), `runbook` (setup/run/workflow), `convention` (p
 
 - **Q-010** [tag: convention, knowhow, difficulty: medium]
   - **Q:** Why does `LESSON_RE` at `check_examples.py:28` accept `^\d{2}[-_].+` (both hyphen and underscore)? What does this character-class hint at about the course's history?
-  - **A:** Lesson 01's folder is `01_sharpen_your_tools` (underscore separator) while lessons 02-23 are `02-select-basics`, `03-select-columns-and-aliases`, etc. (hyphen). The harness's regex tolerates both because lesson 01 predates the hyphen convention and was never renamed. This is a small but instructive bit of history: rather than renaming the folder (which would break any external bookmark/URL pointing at lesson 01), the author tolerated the inconsistency in code. The principle is "prefer compatibility over consistency when consistency is cosmetic" — a senior-engineer instinct.
-  - **Source:** `examples/check_examples.py:28`, `examples/01_sharpen_your_tools/`
+  - **A:** Lesson 01's folder is `01-sharpen-your-tools` (underscore separator) while lessons 02-23 are `02-select-basics`, `03-select-columns-and-aliases`, etc. (hyphen). The harness's regex tolerates both because lesson 01 predates the hyphen convention and was never renamed. This is a small but instructive bit of history: rather than renaming the folder (which would break any external bookmark/URL pointing at lesson 01), the author tolerated the inconsistency in code. The principle is "prefer compatibility over consistency when consistency is cosmetic" — a senior-engineer instinct.
+  - **Source:** `examples/check_examples.py:28`, `examples/01-sharpen-your-tools/`
 
 ## Lesson folder convention
 
@@ -127,9 +127,9 @@ Tags: `knowhow` (why-questions), `runbook` (setup/run/workflow), `convention` (p
   - **Source:** `README.md`, `examples/README.md:1`, `docs/learn-this-project/03-elevation-roadmap.md#f-pedagogical-depth--beyond-syntax`
 
 - **Q-017** [tag: pedagogy, knowhow, difficulty: medium]
-  - **Q:** Lesson 01 (`01_sharpen_your_tools/`) is structurally different from every other lesson — different DB filename, different loader, different folder naming, no `example_*.sql` files. Why does this lesson exist, and why is it OK that it doesn't match the template?
+  - **Q:** Lesson 01 (`01-sharpen-your-tools/`) is structurally different from every other lesson — different DB filename, different loader, different folder naming, no `example_*.sql` files. Why does this lesson exist, and why is it OK that it doesn't match the template?
   - **A:** Lesson 01 teaches DBeaver — how to download it, connect to a SQLite file, browse tables, run a query. It deliberately has no SQL exercises because the goal is environment readiness, not SQL skill. The forum schema (`users` / `posts` / `replies`) is small and conceptually familiar so the learner spends zero brain on the data and all of it on the tool. Using raw `sqlite3` with `executescript()` for the seed (`build_db.py`) instead of polars+SQLAlchemy is intentional too — the lesson wants to show CREATE TABLE + INSERT statements as proper SQL, which the CSV-based shared loader would hide. The differing template is the **right** signal: "this lesson is about something else; everything from lesson 02 onward is a uniform sequence."
-  - **Source:** `examples/01_sharpen_your_tools/README.md`, `examples/01_sharpen_your_tools/build_db.py`, `docs/learn-this-project/01-knowhow-inventory.md#lesson-01--bootstrap-different-shape-from-0223`
+  - **Source:** `examples/01-sharpen-your-tools/README.md`, `examples/01-sharpen-your-tools/build_db.py`, `docs/learn-this-project/01-knowhow-inventory.md#lesson-01--bootstrap-different-shape-from-0223`
 
 ## SQL teaching specifics (cross-lesson)
 
@@ -188,7 +188,7 @@ Tags: `knowhow` (why-questions), `runbook` (setup/run/workflow), `convention` (p
 - **Q-028** [tag: knowhow, mech, difficulty: hard]
   - **Q:** Lesson 01's `build_db.py` uses raw `sqlite3.executescript(...)` instead of the shared `csv_to_sqlite.load_csv_dir_to_sqlite`. Walk through both designs side by side — what does each get the lesson, and why is the inconsistency a feature?
   - **A:** Lessons 02-23 need data **already in SQLite** so the learner can immediately run SELECTs against rich schemas; the CSV-based loader makes that fast to author. Lesson 01 is about teaching DBeaver — its purpose is to **show the learner what a CREATE TABLE + INSERT looks like as raw SQL** because they'll see those statements in any database course they take after. Using the shared CSV loader for lesson 01 would hide the CREATE TABLE statements behind polars/SQLAlchemy abstractions — exactly what the lesson doesn't want. So `build_db.py` does `executescript(open("sql/01_schema.sql").read())` then `executescript(open("sql/02_seed.sql").read())`, and the SQL files are committed for the learner to read. The inconsistency between lesson 01 and 02+ isn't sloppiness — it's that lesson 01 has a different teaching goal.
-  - **Source:** `examples/01_sharpen_your_tools/build_db.py`, `examples/01_sharpen_your_tools/sql/01_schema.sql`, `examples/01_sharpen_your_tools/sql/02_seed.sql`
+  - **Source:** `examples/01-sharpen-your-tools/build_db.py`, `examples/01-sharpen-your-tools/sql/01_schema.sql`, `examples/01-sharpen-your-tools/sql/02_seed.sql`
 
 ## Reflection and meta
 

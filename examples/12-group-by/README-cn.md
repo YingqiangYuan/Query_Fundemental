@@ -35,7 +35,7 @@
 
 ## 打开数据库
 
-`db.sqlite` 已经预先生成好并提交进了 git，就在本目录下，你**不需要自己跑生成脚本**。直接用 **DBeaver**（图形界面）或者命令行 `sqlite3` 打开 `db.sqlite` 就行。不会的话回 [examples/01](../01/) 复习一下。
+`db.sqlite` 已经预先生成好并提交进了 git，就在本目录下，你**不需要自己跑生成脚本**。直接用 **DBeaver**（图形界面）或者命令行 `sqlite3` 打开 `db.sqlite` 就行。不会的话回 [examples/01-sharpen-your-tools](../01-sharpen-your-tools) 复习一下。
 
 > **如果 `db.sqlite` 不小心坏了**：删掉它，再跑一次 [gen_db.py](./gen_db.py) 就能重新生成。
 >

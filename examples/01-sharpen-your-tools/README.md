@@ -38,7 +38,7 @@ Size: 8 users, 12 posts, 30 replies. The topics are all tech-discussion-flavored
 `forum.sqlite` is generated from two SQL files under `sql/` by `build_db.py`. It's fully reproducible — if you accidentally mess up the file, just run:
 
 ```bash
-python3 examples/01_sharpen_your_tools/build_db.py
+python3 examples/01-sharpen-your-tools/build_db.py
 ```
 
 and it will be regenerated from scratch. The SQL source files are:

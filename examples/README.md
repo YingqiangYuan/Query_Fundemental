@@ -4,7 +4,7 @@
 
 ## How to use this tutorial
 
-If you don't yet know how to open a `.sqlite` file in DBeaver or the command line, start with [01 — Sharpen Your Tools](./01_sharpen_your_tools/) to get the environment running. Every later lesson assumes you've done this.
+If you don't yet know how to open a `.sqlite` file in DBeaver or the command line, start with [01 — Sharpen Your Tools](./01-sharpen-your-tools/) to get the environment running. Every later lesson assumes you've done this.
 
 From lesson 02 onward, work through the folders in numeric order. Each lesson is a self-contained folder, and its `db.sqlite` is pre-generated and committed to git — **just open it in DBeaver or `sqlite3` directly** (if the file ever gets corrupted, `cd` into that folder and run `python gen_db.py` to rebuild it).
 

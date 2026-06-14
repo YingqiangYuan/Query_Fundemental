@@ -11,7 +11,7 @@ Edit this file directly when you spot inaccuracies. Re-run the meta-skill with
 
 ## Project at a glance
 
-`learn_sql_query_basic` is a hands-on, SELECT-only SQL course. It is delivered as **23 self-contained lesson folders** under `examples/` — one bootstrap lesson on DBeaver (`01_sharpen_your_tools/`) plus 22 query lessons (`02-select-basics/` … `23-window-functions-aggregates/`). Each lesson ships its own real-world dataset, a pre-generated `db.sqlite` (committed to git), and a handful of `example_NN.sql` files whose top-of-file comments explain **the business question** and **why the query is written that way**. The audience is beginners who already know what a table is but want to grow from "I can write `SELECT *`" to "I can read window functions". The project explicitly avoids INSERT/UPDATE/DELETE/DDL so learners can focus on query logic without worrying about mutation.
+`learn_sql_query_basic` is a hands-on, SELECT-only SQL course. It is delivered as **23 self-contained lesson folders** under `examples/` — one bootstrap lesson on DBeaver (`01-sharpen-your-tools/`) plus 22 query lessons (`02-select-basics/` … `23-window-functions-aggregates/`). Each lesson ships its own real-world dataset, a pre-generated `db.sqlite` (committed to git), and a handful of `example_NN.sql` files whose top-of-file comments explain **the business question** and **why the query is written that way**. The audience is beginners who already know what a table is but want to grow from "I can write `SELECT *`" to "I can read window functions". The project explicitly avoids INSERT/UPDATE/DELETE/DDL so learners can focus on query logic without worrying about mutation.
 
 ## Architecture overview
 
@@ -22,7 +22,7 @@ learn_sql_query_basic-project/
 ├── examples/                       ← the entire teaching surface
 │   ├── README.md / README-cn.md    ← course index (bilingual)
 │   ├── check_examples.py           ← batch self-test harness
-│   ├── 01_sharpen_your_tools/      ← DBeaver bootstrap lesson (unique shape)
+│   ├── 01-sharpen-your-tools/      ← DBeaver bootstrap lesson (unique shape)
 │   └── NN-<topic>/  (×22)          ← uniform lesson folders, lessons 02-23
 │       ├── README.md / README-cn.md
 │       ├── data/NN_<table>.csv     ← seed CSVs, FK-ordered by NN_ prefix
@@ -68,7 +68,7 @@ There is one execution model: **a learner opens `db.sqlite` in DBeaver (or `sqli
 - **Gotchas.**
   - Tries the whole file as one statement first; only falls back to splitting on `;` if that fails. This is because comments may legitimately contain semicolons (e.g. lesson 12's `example_06.sql` shows a broken-SQL example inside a `--` block).
   - Reports only the **last** row-returning statement's row count for multi-statement files; intermediate counts are dropped.
-  - `LESSON_RE = re.compile(r"^\d{2}[-_].+")` at `:28` accepts both `01_sharpen_your_tools` (underscore) and `02-select-basics` (hyphen). This is deliberate — lesson 01 was named first and uses underscores; everything 02+ uses hyphens. The regex bridges the inconsistency.
+  - `LESSON_RE = re.compile(r"^\d{2}[-_].+")` at `:28` accepts both `01-sharpen-your-tools` (underscore) and `02-select-basics` (hyphen). This is deliberate — lesson 01 was named first and uses underscores; everything 02+ uses hyphens. The regex bridges the inconsistency.
   - `WHY: <best guess; verify with project owner>` for why lesson 01 is named differently — likely an early naming convention that was changed before lesson 02 but never retro-applied to 01.
 
 ### Course index
@@ -83,11 +83,11 @@ There is one execution model: **a learner opens `db.sqlite` in DBeaver (or `sqli
 
 ### Lesson 01 — bootstrap (different shape from 02–23)
 
-#### `examples/01_sharpen_your_tools/`
+#### `examples/01-sharpen-your-tools/`
 
 - **What.** A DBeaver installation + first-SQLite-connection tutorial. Ships a tiny forum schema (`users`, `posts`, `replies`; 8/12/30 rows) and walks through DBeaver download → connection → `SELECT * FROM posts LIMIT 5;`.
-- **Why.** The course assumes a working SQL editor and a learner who can open a `.sqlite` file. Without this lesson, lessons 02+ have no entry point for someone who has never used DBeaver. The lesson is named with an underscore (`01_sharpen_your_tools`) where 02+ use hyphens (`02-select-basics`) — a historical naming inconsistency the harness tolerates via the `[-_]` regex character class.
-- **Key files.** `examples/01_sharpen_your_tools/README.md` (180+ lines, 8 screenshots), `build_db.py` (uses raw `sqlite3.executescript`, not the shared loader), `sql/01_schema.sql`, `sql/02_seed.sql`, `imgs/use-dbeaver-0[1-8].png`.
+- **Why.** The course assumes a working SQL editor and a learner who can open a `.sqlite` file. Without this lesson, lessons 02+ have no entry point for someone who has never used DBeaver. The lesson is named with an underscore (`01-sharpen-your-tools`) where 02+ use hyphens (`02-select-basics`) — a historical naming inconsistency the harness tolerates via the `[-_]` regex character class.
+- **Key files.** `examples/01-sharpen-your-tools/README.md` (180+ lines, 8 screenshots), `build_db.py` (uses raw `sqlite3.executescript`, not the shared loader), `sql/01_schema.sql`, `sql/02_seed.sql`, `imgs/use-dbeaver-0[1-8].png`.
 - **Depends on.** stdlib `sqlite3` (notably **not** the shared `csv_to_sqlite` loader).
 - **Gotchas.**
   - Uses raw `sqlite3` + `executescript` instead of polars+SQLAlchemy. **Why:** lesson 01 needs to seed via CREATE TABLE + INSERT statements (taught visually as proper SQL) rather than via CSV import. Using the shared CSV loader would hide the schema definitions the lesson is showing off.
