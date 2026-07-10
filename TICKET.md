@@ -10,12 +10,12 @@ Absorb the SELECT-only SQL course (23 lessons, one industry per lesson) deeply e
 
 ### Setup
 
-- [ ] Clone the repo and switch to the `01-Learn-This-Project` branch
-- [ ] Install mise, then run `mise install` from the repo root
-- [ ] Bootstrap the env: `mise run venv-create && mise run inst`
-- [ ] Verify the toolchain works: `python examples/check_examples.py` should print `OK` for every `example_*.sql` and exit `0`
-- [ ] Install DBeaver Community (or have `sqlite3` CLI ready) — `examples/01-sharpen-your-tools/README.md` walks the DBeaver setup if you've never done it
-- [ ] Open `examples/02-select-basics/db.sqlite` in DBeaver and run `SELECT * FROM books LIMIT 5;` — confirms the "DB committed to git → open immediately" path works
+- [X] Clone the repo and switch to the `01-Learn-This-Project` branch
+- [X] Install mise, then run `mise install` from the repo root
+- [X] Bootstrap the env: `mise run venv-create && mise run inst`
+- [X] Verify the toolchain works: `python examples/check_examples.py` should print `OK` for every `example_*.sql` and exit `0`
+- [X] Install DBeaver Community (or have `sqlite3` CLI ready) — `examples/01-sharpen-your-tools/README.md` walks the DBeaver setup if you've never done it
+- [X] Open `examples/02-select-basics/db.sqlite` in DBeaver and run `SELECT * FROM books LIMIT 5;` — confirms the "DB committed to git → open immediately" path works
 
 ### Absorb (learn the content)
 
