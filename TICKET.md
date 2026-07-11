@@ -22,11 +22,11 @@ Absorb the SELECT-only SQL course (23 lessons, one industry per lesson) deeply e
 - [X] Run `/learn-this-project-absorb` in **Orient mode** for the high-level map and the explicit `files to READ` vs `files to RUN/DO` split
 - [X] Work through every lesson on the run-list yourself — open the lesson's `db.sqlite` in DBeaver, browse the data, then run `example_01.sql` … `example_0N.sql` one at a time, reading the header comment first and predicting the result
 - [X] Use `/learn-this-project-absorb` in **Context-dive mode** whenever a specific SQL line, a `csv_to_sqlite.py` mechanism, or a `check_examples.py` decision needs unpacking
-- [-] Articulate **why every lesson uses a different industry** instead of one big shared dataset (forces you to re-encode the business question each time)
-- [-] Articulate **why `db.sqlite` is pre-committed to git** rather than regenerated on first run (removes the "Python before SQL" friction for the learner)
-- [-] Articulate **why the course is SELECT-only** and what it costs the learner (no schema design, no writes, no `EXPLAIN` literacy — and why the tradeoff is defensible for the target audience)
-- [ ] Walk through `learn_sql_query_basic/csv_to_sqlite.py` end-to-end — explain why the `NN_` CSV prefix matters, why `db_path.unlink()` is unconditional, and why SQLAlchemy Core was chosen over ORM
-- [ ] Read `examples/12-group-by/example_06.sql` and explain why it shows a *broken* GROUP BY in the comment block — this is the course's most distinctive teaching shape
+- [X] Articulate **why every lesson uses a different industry** instead of one big shared dataset (forces you to re-encode the business question each time)
+- [X] Articulate **why `db.sqlite` is pre-committed to git** rather than regenerated on first run (removes the "Python before SQL" friction for the learner)
+- [X] Articulate **why the course is SELECT-only** and what it costs the learner (no schema design, no writes, no `EXPLAIN` literacy — and why the tradeoff is defensible for the target audience)
+- [X] Walk through `learn_sql_query_basic/csv_to_sqlite.py` end-to-end — explain why the `NN_` CSV prefix matters, why `db_path.unlink()` is unconditional, and why SQLAlchemy Core was chosen over ORM
+- [X] Read `examples/12-group-by/example_06.sql` and explain why it shows a *broken* GROUP BY in the comment block — this is the course's most distinctive teaching shape
 
 ### Quiz (verify understanding)
 
