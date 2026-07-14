@@ -30,9 +30,9 @@ Absorb the SELECT-only SQL course (23 lessons, one industry per lesson) deeply e
 
 ### Quiz (verify understanding)
 
-- [ ] Run `/learn-this-project-quiz` in **Bank mode** — clear a 10-question round with no ⚠️ partial or ❌ wrong scores
-- [ ] Use **Open-ended mode** to drill 2-3 topics where you came up shallow (likely candidates: `csv_to_sqlite.py` design choices, the GROUP BY / HAVING boundary, the JOIN-family curriculum order)
-- [ ] If anything keeps scoring ⚠️ partial, go back to the relevant lesson README or `01-knowhow-inventory.md` and re-quiz that tag
+- [-] Run `/learn-this-project-quiz` in **Bank mode** — clear a 10-question round with no ⚠️ partial or ❌ wrong scores
+- [-] Use **Open-ended mode** to drill 2-3 topics where you came up shallow (likely candidates: `csv_to_sqlite.py` design choices, the GROUP BY / HAVING boundary, the JOIN-family curriculum order)
+- [-] If anything keeps scoring ⚠️ partial, go back to the relevant lesson README or `01-knowhow-inventory.md` and re-quiz that tag
 
 ### Elevate (see what's beyond)
 
