@@ -30,35 +30,35 @@ Absorb the SELECT-only SQL course (23 lessons, one industry per lesson) deeply e
 
 ### Quiz (verify understanding)
 
-- [-] Run `/learn-this-project-quiz` in **Bank mode** — clear a 10-question round with no ⚠️ partial or ❌ wrong scores
-- [-] Use **Open-ended mode** to drill 2-3 topics where you came up shallow (likely candidates: `csv_to_sqlite.py` design choices, the GROUP BY / HAVING boundary, the JOIN-family curriculum order)
-- [-] If anything keeps scoring ⚠️ partial, go back to the relevant lesson README or `01-knowhow-inventory.md` and re-quiz that tag
+- [X] Run `/learn-this-project-quiz` in **Bank mode** — clear a 10-question round with no ⚠️ partial or ❌ wrong scores
+- [X] Use **Open-ended mode** to drill 2-3 topics where you came up shallow (likely candidates: `csv_to_sqlite.py` design choices, the GROUP BY / HAVING boundary, the JOIN-family curriculum order)
+- [X] If anything keeps scoring ⚠️ partial, go back to the relevant lesson README or `01-knowhow-inventory.md` and re-quiz that tag
 
 ### Elevate (see what's beyond)
 
-- [ ] Run `/learn-this-project-elevate` and explore at least 1-2 upgrade directions (good starting picks: **test depth** — snapshot-based result tests over `check_examples.py`'s parse-only check; **CI** — a GitHub Actions workflow; **cross-engine portability** — a Postgres or DuckDB lane)
-- [ ] **Converge each chosen direction into a concrete starter deliverable** — e.g. "add `tests/test_examples.py` that snapshots every SQL's result rows via syrupy, parametrized over `examples/**/example_*.sql`"
-- [ ] (Optional, high-value) Hand the deliverable to `/learn-this-project-absorb` in **Build mode** and actually build the first iteration end-to-end
-- [ ] Note down the upgrade directions you'd pursue, defer, or skip — these become the bullets in your portfolio README's "What's next" section
+- [X] Run `/learn-this-project-elevate` and explore at least 1-2 upgrade directions (good starting picks: **test depth** — snapshot-based result tests over `check_examples.py`'s parse-only check; **CI** — a GitHub Actions workflow; **cross-engine portability** — a Postgres or DuckDB lane)
+- [X] **Converge each chosen direction into a concrete starter deliverable** — e.g. "add `tests/test_examples.py` that snapshots every SQL's result rows via syrupy, parametrized over `examples/**/example_*.sql`"
+- [X] (Optional, high-value) Hand the deliverable to `/learn-this-project-absorb` in **Build mode** and actually build the first iteration end-to-end
+- [X] Note down the upgrade directions you'd pursue, defer, or skip — these become the bullets in your portfolio README's "What's next" section
 
 ### Interview (pressure-test yourself)
 
-- [ ] Run `/learn-this-project-interview`, complete a full mock session — calibrate it to a mid-level data-analyst or backend-engineer screen
-- [ ] Survive at least one pushback round per question (especially Round 3 alternatives — "why polars not pandas?", "why Core not ORM?", "why committed `db.sqlite` not regen-on-clone?")
-- [ ] Review the debrief; for the 3 weak-spot questions, return to quiz / absorb and re-cover the gap before moving on
+- [X] Run `/learn-this-project-interview`, complete a full mock session — calibrate it to a mid-level data-analyst or backend-engineer screen
+- [X] Survive at least one pushback round per question (especially Round 3 alternatives — "why polars not pandas?", "why Core not ORM?", "why committed `db.sqlite` not regen-on-clone?")
+- [X] Review the debrief; for the 3 weak-spot questions, return to quiz / absorb and re-cover the gap before moving on
 
 ### Demo (learn to present)
 
-- [ ] Run `/learn-this-project-demo` — pick your most likely real audience and rehearse at least the 5-minute version
-- [ ] Walk through the **cardinal-rule "do NOT show" list** — at minimum you should know to hide `docs/learn-this-project/`, all 24 `README-cn.md` files, `README-ORIGINAL.md`, the 5 sibling skills, `.idea/`, `.venv/`, and `tmp/` during a live demo
-- [ ] Practice the golden-path beats: open `examples/README.md` → open `examples/12-group-by/` folder → open `example_01.sql` (show the business-question + why headers) → run the SQL live in DBeaver
+- [X] Run `/learn-this-project-demo` — pick your most likely real audience and rehearse at least the 5-minute version
+- [X] Walk through the **cardinal-rule "do NOT show" list** — at minimum you should know to hide `docs/learn-this-project/`, all 24 `README-cn.md` files, `README-ORIGINAL.md`, the 5 sibling skills, `.idea/`, `.venv/`, and `tmp/` during a live demo
+- [X] Practice the golden-path beats: open `examples/README.md` → open `examples/12-group-by/` folder → open `example_01.sql` (show the business-question + why headers) → run the SQL live in DBeaver
 
 ### Mastery Gate
 
-- [ ] You can answer ~70% of quiz questions to the **3-part standard** (where + what + why), not just factually
-- [ ] You can survive at least one pushback round per interview question without backing down or hand-waving
-- [ ] You have a clear list of "what I'd study next" from the elevate session — concrete, named topics, not "more SQL"
-- [ ] You can deliver the demo without notes and without exposing any cardinal-rule teaching artifact
+- [X] You can answer ~70% of quiz questions to the **3-part standard** (where + what + why), not just factually
+- [X] You can survive at least one pushback round per interview question without backing down or hand-waving
+- [X] You have a clear list of "what I'd study next" from the elevate session — concrete, named topics, not "more SQL"
+- [X] You can deliver the demo without notes and without exposing any cardinal-rule teaching artifact
 
 ### Publish (turn it into a portfolio artifact)
 
